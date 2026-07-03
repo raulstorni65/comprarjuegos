@@ -8,5 +8,15 @@
     "img": "/img/ps4-red-dead-redemption-2-portada.jpg",
     "genero": "Action",
     "fecha": "2026-07-03"
+  },
+  {
+    "titulo": "NBA 2K26",
+    "slug": "nba-2k26",
+    "plataforma": "PS4",
+    "precio": "34.57",
+    "ref": "57.62",
+    "img": "/img/ps4-nba-2k26-portada.jpg",
+    "genero": "Sports",
+    "fecha": "2026-07-03"
   }
 ]
