@@ -1,0 +1,58 @@
+[
+  {
+    "titulo": "Red Dead Redemption 2",
+    "slug": "red-dead-redemption-2",
+    "plataforma": "PS4",
+    "ref": "49.99",
+    "precio": "27.99"
+  },
+  {
+    "titulo": "God of War Ragnarök",
+    "slug": "god-of-war-ragnarok",
+    "plataforma": "PS4",
+    "ref": "59.99",
+    "precio": "34.99"
+  },
+  {
+    "titulo": "The Last of Us Part II",
+    "slug": "the-last-of-us-part-ii",
+    "plataforma": "PS4",
+    "ref": "39.99",
+    "precio": "25.99"
+  },
+  {
+    "titulo": "Elden Ring",
+    "slug": "elden-ring",
+    "plataforma": "PS4",
+    "ref": "59.99",
+    "precio": "37.99"
+  },
+  {
+    "titulo": "Marvel's Spider-Man",
+    "slug": "marvels-spider-man",
+    "plataforma": "PS4",
+    "ref": "39.99",
+    "precio": "22.99"
+  },
+  {
+    "titulo": "Mortal Kombat 11",
+    "slug": "mortal-kombat-11",
+    "plataforma": "PS4",
+    "ref": "49.99",
+    "precio": "14.99"
+  },
+  {
+    "titulo": "Resident Evil 4",
+    "slug": "resident-evil-4",
+    "plataforma": "PS4",
+    "ref": "39.99",
+    "precio": "24.99"
+  },
+  {
+    "titulo": "Cuphead",
+    "slug": "cuphead",
+    "plataforma": "PS4",
+    "ref": "19.99",
+    "precio": "9.99"
+  }
+]

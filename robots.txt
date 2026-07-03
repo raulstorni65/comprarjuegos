@@ -1,0 +1,12 @@
+# robots.txt — ComprarJuegos
+User-agent: *
+Allow: /
+
+# No indexar carrito, checkout ni cuenta (cuando existan)
+Disallow: /carrito
+Disallow: /checkout
+Disallow: /cuenta
+Disallow: /*?orderby=
+Disallow: /*?add-to-cart=
+
+Sitemap: https://www.comprarjuegos.com/sitemap.xml

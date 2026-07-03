@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SITEMAP — ComprarJuegos
+  Este es el sitemap "estático" (páginas fijas + catálogo de ejemplo).
+
+  IMPORTANTE para tus 8000 fichas:
+  Un solo sitemap admite hasta 50.000 URLs, así que técnicamente entran.
+  PERO conviene que tu workflow de n8n genere los productos en sitemaps
+  separados por plataforma o por tandas y los enlace con un SITEMAP INDEX:
+
+    sitemap.xml            (index, lista los de abajo)
+      ├─ sitemap-pages.xml   (home, ayuda, legales)
+      ├─ sitemap-ps4-1.xml   (primeras 5000 fichas PS4)
+      ├─ sitemap-ps4-2.xml   (resto)
+      └─ sitemap-ps5.xml
+
+  Así, cada vez que un agente publica una ficha, agrega su <url> al
+  sitemap correspondiente con su <lastmod> real. Eso le dice a Google
+  qué hay de nuevo sin tener que rastrear todo el sitio.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://www.comprarjuegos.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.comprarjuegos.com/ps4.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.comprarjuegos.com/ps5.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.comprarjuegos.com/ofertas.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Ejemplo de ficha de producto (el agente genera una <url> por título) -->
+  <url>
+    <loc>https://www.comprarjuegos.com/ps4-god-of-war-ragnarok.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Páginas de ayuda / legales -->
+  <url><loc>https://www.comprarjuegos.com/preguntas-frecuentes.html</loc><priority>0.5</priority></url>
+  <url><loc>https://www.comprarjuegos.com/medios-de-pago.html</loc><priority>0.4</priority></url>
+  <url><loc>https://www.comprarjuegos.com/garantia.html</loc><priority>0.4</priority></url>
+  <url><loc>https://www.comprarjuegos.com/devoluciones.html</loc><priority>0.4</priority></url>
+  <url><loc>https://www.comprarjuegos.com/terminos-y-condiciones.html</loc><priority>0.3</priority></url>
+
+</urlset>

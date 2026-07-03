@@ -1,0 +1,159 @@
+/* Estilos específicos de la ficha de producto */
+
+.breadcrumb { font-family: var(--font-mono); font-size: .76rem; color: var(--muted-2); padding: 20px 0 4px; }
+.breadcrumb a { color: var(--muted); }
+.breadcrumb a:hover { color: var(--cool); }
+.breadcrumb span { color: var(--text); }
+
+.product { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; padding: 28px 24px 56px; align-items: start; }
+
+/* Galería */
+.gallery-main { aspect-ratio: 3/4; border-radius: var(--radius); overflow: hidden; background: linear-gradient(160deg, #232c47, #11162a); display: grid; place-items: center; border: 1px solid var(--line); }
+.gallery-main img { width: 100%; height: 100%; object-fit: cover; }
+.gallery-thumbs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 12px; }
+.gallery-thumbs img { aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-sm); border: 1px solid var(--line); cursor: pointer; background: var(--surface); }
+.gallery-thumbs img:hover { border-color: var(--cool); }
+
+/* Buybox */
+.buybox .platform-tag { font-family: var(--font-mono); font-size: .72rem; color: var(--cool); letter-spacing: .08em; }
+.buybox h1 { font-size: clamp(1.6rem, 3vw, 2.3rem); margin: 8px 0 14px; }
+.resumen { color: var(--muted); margin-bottom: 22px; }
+
+.spec-sheet { border: 1px solid var(--line); border-radius: var(--radius-sm); overflow: hidden; margin-bottom: 24px; }
+.spec-row { display: flex; justify-content: space-between; padding: 10px 16px; font-family: var(--font-mono); font-size: .82rem; border-bottom: 1px solid var(--line); }
+.spec-row:last-child { border-bottom: none; }
+.spec-row:nth-child(odd) { background: var(--ink-2); }
+.spec-row span { color: var(--muted); }
+.spec-row b { color: var(--text); font-weight: 500; }
+.spec-row b.hl { color: var(--cool); }
+
+.price-block { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; margin-bottom: 18px; }
+.price-line { display: flex; align-items: center; gap: 12px; }
+.price-line .ref { font-family: var(--font-mono); font-size: .85rem; color: var(--muted-2); text-decoration: line-through; }
+.price-line .save { font-family: var(--font-mono); font-size: .76rem; color: var(--warm); background: var(--warm-soft); padding: 2px 9px; border-radius: 6px; }
+.price-main { font-family: var(--font-display); font-weight: 700; font-size: 2.6rem; color: var(--warm); line-height: 1.1; margin: 4px 0 6px; }
+.price-note { font-size: .8rem; color: var(--muted); }
+
+.stock-line { font-family: var(--font-mono); font-size: .82rem; color: var(--ok); display: flex; align-items: center; gap: 8px; margin-bottom: 20px; }
+.stock-line.agotado { color: var(--danger); }
+.stock-dot { width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+
+.buy-actions { display: flex; gap: 12px; margin-bottom: 18px; }
+.btn-buy { flex: 1; justify-content: center; padding: 15px; }
+.buy-actions .btn-ghost { padding: 15px 18px; }
+
+.buy-trust { display: flex; gap: 18px; flex-wrap: wrap; font-size: .8rem; color: var(--muted); }
+
+.product-detail .doc-body h2 { font-size: 1.5rem; }
+
+@media (max-width: 900px) {
+  .product { grid-template-columns: 1fr; gap: 28px; }
+}
+
+/* ===== Adiciones v2 ===== */
+
+/* Puntaje de la crítica */
+.critic { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+.critic-score {
+  font-family: var(--font-display); font-weight: 700; font-size: 1rem;
+  width: 42px; height: 42px; display: grid; place-items: center; border-radius: 9px;
+  background: var(--cool-soft); color: var(--cool); border: 1px solid var(--cool);
+}
+.critic-label { font-family: var(--font-mono); font-size: .72rem; color: var(--muted); }
+
+/* Cuotas */
+.cuotas { margin: 10px 0 8px; display: flex; flex-direction: column; gap: 2px; }
+.cuota-hl { color: var(--ok); font-family: var(--font-display); font-weight: 600; font-size: .98rem; }
+.cuota-alt { color: var(--muted); font-size: .82rem; }
+
+/* Botón WhatsApp */
+.btn-whatsapp {
+  width: 100%; justify-content: center; margin-bottom: 18px;
+  background: transparent; border: 1px solid #25D366; color: #25D366;
+}
+.btn-whatsapp:hover { background: rgba(37,211,102,.1); transform: translateY(-2px); }
+
+/* Trailer */
+.trailer-section { padding-top: 0; }
+.trailer-frame { position: relative; width: 100%; aspect-ratio: 16/9; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); background: #000; }
+.trailer-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+/* Reseñas */
+.reviews-summary { display: flex; align-items: center; gap: 18px; padding: 18px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); margin-bottom: 18px; }
+.rs-score { font-family: var(--font-display); font-weight: 700; font-size: 2.4rem; color: var(--text); }
+.rs-score span { font-size: 1rem; color: var(--muted-2); }
+.rs-stars { color: var(--warm); letter-spacing: 2px; }
+.rs-meta span { display: block; font-size: .82rem; color: var(--muted); margin-top: 2px; }
+.review { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.review-head { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; flex-wrap: wrap; }
+.review-head b { color: var(--text); }
+.verified { font-family: var(--font-mono); font-size: .68rem; color: var(--ok); }
+.review p { color: var(--muted); margin: 0; }
+.reviews-empty { font-style: italic; color: var(--muted-2); }
+
+/* Barra de compra sticky (solo mobile) */
+.sticky-buy { display: none; }
+@media (max-width: 900px) {
+  .sticky-buy {
+    display: flex; align-items: center; gap: 14px;
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 60;
+    background: rgba(15,21,38,.96); backdrop-filter: blur(10px);
+    border-top: 1px solid var(--line); padding: 12px 18px;
+  }
+  .sb-info { display: flex; flex-direction: column; flex: 1; }
+  .sb-title { font-size: .78rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 60vw; }
+  .sb-price { font-family: var(--font-display); font-weight: 700; color: var(--warm); font-size: 1.2rem; }
+  .sticky-buy .btn { padding: 12px 26px; }
+  body { padding-bottom: 72px; }
+}
+
+/* ===== v5: formato, instalación, impuestos, compra ===== */
+
+.btn-buy-full { display: flex; width: 100%; justify-content: center; padding: 15px; margin-bottom: 16px; }
+
+/* Tarjeta de formato */
+.format-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 14px 16px; margin-bottom: 18px; }
+.format-badge { display: inline-block; font-family: var(--font-mono); font-size: .72rem; font-weight: 500; letter-spacing: .04em; color: var(--ok); background: rgba(63,215,155,.12); border: 1px solid rgba(63,215,155,.35); padding: 4px 10px; border-radius: 6px; }
+.format-card details { margin-top: 10px; }
+.format-card summary { cursor: pointer; color: var(--cool); font-size: .85rem; font-family: var(--font-display); font-weight: 500; }
+.format-explain { margin-top: 10px; }
+.format-explain p { font-size: .84rem; color: var(--muted); margin: 6px 0; }
+.format-explain b { color: var(--text); }
+
+/* Nota de impuestos */
+.tax-note { font-size: .76rem; color: var(--muted); margin-top: 10px; line-height: 1.4; border-top: 1px solid var(--line); padding-top: 10px; }
+
+/* Pasos de instalación */
+.install-steps { background: var(--ink-2); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 14px 18px; margin-bottom: 18px; }
+.install-steps b { font-family: var(--font-display); font-size: .9rem; }
+.install-steps ol { margin: 8px 0 0; padding-left: 20px; }
+.install-steps li { font-size: .85rem; color: var(--muted); margin-bottom: 4px; }
+
+/* ===== Página de compra (comprar.html) ===== */
+.checkout { display: grid; grid-template-columns: 1.3fr .9fr; gap: 40px; padding: 40px 24px 80px; align-items: start; }
+.checkout h1 { font-size: clamp(1.6rem, 3vw, 2.2rem); margin-bottom: 6px; }
+.checkout .step-label { font-family: var(--font-mono); font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--cool); margin-bottom: 24px; display: block; }
+.pay-options { display: flex; flex-direction: column; gap: 12px; margin: 20px 0; }
+.pay-option { display: flex; align-items: center; gap: 14px; padding: 18px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); transition: border-color .15s, transform .15s; }
+.pay-option:hover { border-color: var(--cool); transform: translateY(-2px); }
+.pay-option .po-name { font-family: var(--font-display); font-weight: 600; }
+.pay-option .po-desc { font-size: .8rem; color: var(--muted); }
+.pay-option .po-icon { width: 44px; height: 44px; border-radius: 10px; display: grid; place-items: center; background: var(--ink-2); border: 1px solid var(--line); font-family: var(--font-mono); font-size: .62rem; color: var(--cool); flex-shrink: 0; }
+.pay-option .po-go { margin-left: auto; color: var(--cool); }
+
+.order-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; position: sticky; top: 92px; }
+.order-card h3 { font-size: 1rem; margin-bottom: 16px; }
+.order-item { display: flex; gap: 14px; padding-bottom: 16px; border-bottom: 1px solid var(--line); margin-bottom: 16px; }
+.order-item .oi-cover { width: 56px; height: 72px; border-radius: 8px; background: linear-gradient(160deg,#232c47,#11162a); flex-shrink: 0; display:grid; place-items:center; font-family:var(--font-mono); font-size:.55rem; color:var(--muted-2); text-align:center; }
+.order-item .oi-title { font-family: var(--font-display); font-weight: 600; font-size: .95rem; }
+.order-item .oi-meta { font-family: var(--font-mono); font-size: .7rem; color: var(--muted); margin-top: 4px; }
+.order-row { display: flex; justify-content: space-between; font-size: .9rem; color: var(--muted); margin-bottom: 8px; }
+.order-total { display: flex; justify-content: space-between; align-items: baseline; border-top: 1px solid var(--line); padding-top: 14px; margin-top: 6px; }
+.order-total .ot-label { font-family: var(--font-display); font-weight: 600; }
+.order-total .ot-amount { font-family: var(--font-display); font-weight: 700; font-size: 1.6rem; color: var(--warm); }
+.order-card .tax-note { margin-top: 14px; }
+
+@media (max-width: 900px) {
+  .checkout { grid-template-columns: 1fr; gap: 28px; }
+  .order-card { position: static; }
+}

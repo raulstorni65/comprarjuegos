@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============================================================
+       PÁGINA DE COMPRA (checkout) — un .html por juego, generado por n8n.
+       El botón "Comprar" de la ficha apunta acá ({{LINK_COMPRA}}).
+       Cada opción de pago lleva al link real de tu proveedor:
+         {{LINK_PAGO_TARJETA}} {{LINK_PAGO_PAYPAL}} {{LINK_PAGO_MP}}
+       (links de pago de Stripe/PayPal/Mercado Pago/etc. por título).
+       Sin carrito: una compra = un juego.
+       ============================================================ -->
+
+  <title>Comprar {{TITULO}} — PS4 | ComprarJuegos</title>
+  <meta name="description" content="Finalizá la compra de {{TITULO}} para PS4. Pago seguro con tarjeta, PayPal o Mercado Pago." />
+  <meta name="robots" content="noindex,follow" /> <!-- el checkout no se indexa -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="producto.css" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="theme-color" content="#0B0F1A" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html" class="logo"><span class="mark">C</span>ComprarJuegos</a>
+        <div class="nav-links" id="navLinks">
+          <a href="ps4.html" class="tag-ps4">PS4 <span class="pill">8.000+</span></a>
+          <a href="ps5.html" class="tag-ps5">PS5 <span class="pill">NUEVO</span></a>
+          <a href="ofertas.html">Ofertas</a>
+          <a href="preguntas-frecuentes.html">Ayuda</a>
+        </div>
+        <div class="nav-search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" placeholder="Buscá tu juego…" aria-label="Buscar juegos" />
+        </div>
+        <div class="nav-icons">
+          <button class="icon-btn burger" id="burger" aria-label="Menú">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap checkout">
+    <!-- Columna izquierda: elegir cómo pagar -->
+    <div>
+      <span class="step-label">Finalizá tu compra</span>
+      <h1>Elegí cómo pagar</h1>
+      <p class="lead" style="font-size:.95rem">Pago 100% seguro. Recibís {{TITULO}} {{ENTREGA_FRASE}}.</p>
+
+      <div class="pay-options">
+        <a href="{{LINK_PAGO_TARJETA}}" class="pay-option">
+          <span class="po-icon">CARD</span>
+          <div><div class="po-name">Tarjeta de crédito o débito</div><div class="po-desc">Visa, Mastercard, Amex — internacional</div></div>
+          <span class="po-go">→</span>
+        </a>
+        <a href="{{LINK_PAGO_PAYPAL}}" class="pay-option">
+          <span class="po-icon">PP</span>
+          <div><div class="po-name">PayPal</div><div class="po-desc">Pago protegido con conversión automática</div></div>
+          <span class="po-go">→</span>
+        </a>
+        <a href="{{LINK_PAGO_MP}}" class="pay-option">
+          <span class="po-icon">MP</span>
+          <div><div class="po-name">Mercado Pago</div><div class="po-desc">Disponible en varios países de Latinoamérica</div></div>
+          <span class="po-go">→</span>
+        </a>
+      </div>
+
+      <div class="install-steps">
+        <b>Después de pagar</b>
+        <ol>
+          <li>Recibís el código por mail al instante (revisá spam).</li>
+          <li>Lo canjeás en la PlayStation Store desde tu consola.</li>
+          <li>Descargás y jugás. Cualquier duda, estamos para ayudarte.</li>
+        </ol>
+      </div>
+
+      <p style="font-size:.85rem;color:var(--muted)">
+        <a href="producto-ps4-template.html" style="color:var(--cool)">← Volver a la ficha del juego</a>
+      </p>
+    </div>
+
+    <!-- Columna derecha: resumen del pedido -->
+    <aside class="order-card">
+      <h3>Resumen del pedido</h3>
+      <div class="order-item">
+        <div class="oi-cover">[ Portada ]</div>
+        <div>
+          <div class="oi-title">{{TITULO}}</div>
+          <div class="oi-meta">PS4 · {{FORMATO}} · {{IDIOMA}}</div>
+        </div>
+      </div>
+      <div class="order-row"><span>Precio</span><span>US${{PRECIO_USD}}</span></div>
+      <div class="order-row"><span>Precio PS Store</span><span style="text-decoration:line-through;color:var(--muted-2)">US${{PRECIO_PS_STORE_USD}}</span></div>
+      <div class="order-total">
+        <span class="ot-label">Total</span>
+        <span class="ot-amount">US${{PRECIO_USD}}</span>
+      </div>
+      <p class="tax-note">⚠ El cobro se realiza en USD. Según tu país y tarjeta, pueden aplicarse impuestos o percepciones locales al cambio.</p>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-bottom" style="border:none;margin:0;padding:0">
+        <span>© 2026 ComprarJuegos</span>
+        <span><a href="terminos-y-condiciones.html" style="color:var(--muted)">Términos</a> · <a href="garantia.html" style="color:var(--muted)">Garantía</a> · <a href="devoluciones.html" style="color:var(--muted)">Devoluciones</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- Vercel Web Analytics -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>

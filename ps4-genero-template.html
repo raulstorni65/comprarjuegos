@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- TEMPLATE GÉNERO PS4 — n8n genera un .html por género.
+       Reemplazá {{GENERO}} (nombre visible) y {{GENERO_SLUG}} (slug de URL). -->
+  <title>Juegos de PS4 de {{GENERO}} — precios y stock | ComprarJuegos</title>
+  <meta name="description" content="{{META_DESCRIPTION}}" />
+  <link rel="canonical" href="https://www.comprarjuegos.com/ps4-genero-{{GENERO_SLUG}}.html" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="theme-color" content="#0B0F1A" />
+  <meta property="og:site_name" content="ComprarJuegos" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Juegos de PS4 de {{GENERO}} | ComprarJuegos" />
+  <meta property="og:description" content="{{META_DESCRIPTION}}" />
+  <meta property="og:url" content="https://www.comprarjuegos.com/ps4-genero-{{GENERO_SLUG}}.html" />
+  <meta property="og:image" content="https://www.comprarjuegos.com/og-cover.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Juegos de PS4 de {{GENERO}}",
+    "description": "{{META_DESCRIPTION}}",
+    "url": "https://www.comprarjuegos.com/ps4-genero-{{GENERO_SLUG}}.html",
+    "isPartOf": { "@type": "WebSite", "name": "ComprarJuegos", "url": "https://www.comprarjuegos.com/" },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.comprarjuegos.com/" },
+        { "@type": "ListItem", "position": 2, "name": "PS4", "item": "https://www.comprarjuegos.com/ps4.html" },
+        { "@type": "ListItem", "position": 3, "name": "{{GENERO}}" }
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html" class="logo"><span class="mark">C</span>ComprarJuegos</a>
+        <div class="nav-links" id="navLinks">
+          <a href="ps4.html" class="tag-ps4 active">PS4 <span class="pill">8.000+</span></a>
+          <a href="ps5.html" class="tag-ps5">PS5 <span class="pill">NUEVO</span></a>
+          <a href="ofertas.html">Ofertas</a>
+          <a href="preguntas-frecuentes.html">Ayuda</a>
+        </div>
+        <div class="nav-search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" placeholder="Buscá tu juego…" aria-label="Buscar juegos" />
+        </div>
+        <div class="nav-icons">
+          <button class="icon-btn burger" id="burger" aria-label="Menú">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <nav class="breadcrumb" aria-label="Migas de pan">
+      <a href="index.html">Inicio</a> › <a href="ps4.html">PS4</a> › <span>{{GENERO}}</span>
+    </nav>
+  </div>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="eyebrow">Género · PS4</span>
+      <h1>Juegos de PS4 de {{GENERO}}</h1>
+      <p class="lead">{{INTRO}}</p>
+    </div>
+  </section>
+
+  <section class="block" style="padding-top:40px">
+    <div class="wrap">
+      <div class="product-grid" id="productGrid">
+        <!-- BEGIN:PRODUCTS (n8n: una .card por juego de este género) -->
+        <!-- END:PRODUCTS -->
+      </div>
+      <nav class="pagination" aria-label="Paginación">
+        <span class="page-btn disabled">←</span>
+        <span class="page-btn active">1</span>
+        <a href="#" class="page-btn">2</a>
+        <a href="#" class="page-btn">3</a>
+        <a href="#" class="page-btn">→</a>
+      </nav>
+      <div class="seo-copy">
+        <h2>Sobre los juegos de {{GENERO}} para PS4</h2>
+        <p>{{SEO_TEXTO}}</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a href="index.html" class="logo"><span class="mark">C</span>ComprarJuegos</a>
+          <p>Juegos de PS4 y PS5 con stock real y los mejores precios, para todo el mundo hispanohablante.</p>
+          <div class="pay-methods"><span class="chip">VISA</span><span class="chip">MASTERCARD</span><span class="chip">AMEX</span><span class="chip">PAYPAL</span><span class="chip">MERCADO PAGO</span></div>
+        </div>
+        <div><h4>Catálogo</h4><a href="ps4.html">Juegos PS4</a><a href="ps5.html">Juegos PS5</a><a href="ofertas.html">Ofertas</a></div>
+        <div><h4>Ayuda</h4><a href="preguntas-frecuentes.html">Preguntas frecuentes</a><a href="medios-de-pago.html">Medios de pago</a><a href="garantia.html">Garantía</a><a href="devoluciones.html">Cambios y devoluciones</a></div>
+        <div><h4>Legales</h4><a href="terminos-y-condiciones.html">Términos y condiciones</a><a href="terminos-y-condiciones.html#privacidad">Política de privacidad</a><a href="mailto:hola@comprarjuegos.com">Contacto</a></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 ComprarJuegos — Todos los derechos reservados.</span><span>Razón social y datos fiscales a completar</span></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <!-- Vercel Web Analytics -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
