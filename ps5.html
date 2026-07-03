@@ -108,33 +108,7 @@
            entre BEGIN:PRODUCTS y END:PRODUCTS con una .card por juego.
            Los de abajo son ejemplos para mostrar la estructura.
            ============================================================ -->
-      <div class="product-grid" id="productGrid">
-        <!-- BEGIN:PRODUCTS -->
-        <a href="ps4-marvels-spider-man-2.html" class="card">
-          <div class="cover">[ Portada ]</div>
-          <div class="body"><span class="platform-tag">PS4 · DIGITAL</span><h3>Marvel's Spider-Man 2</h3>
-          <div class="row"><span class="ref">US$69.99</span><span class="price">US$44.99</span></div>
-          <span class="stock">● En stock</span></div>
-        </a>
-        <a href="ps4-ea-sports-fc-26.html" class="card">
-          <div class="cover">[ Portada ]</div>
-          <div class="body"><span class="platform-tag">PS4 · DIGITAL</span><h3>EA SPORTS FC 26</h3>
-          <div class="row"><span class="ref">US$69.99</span><span class="price">US$49.99</span></div>
-          <span class="stock">● En stock</span></div>
-        </a>
-        <a href="ps4-hogwarts-legacy.html" class="card">
-          <div class="cover">[ Portada ]</div>
-          <div class="body"><span class="platform-tag">PS4 · DIGITAL</span><h3>Hogwarts Legacy</h3>
-          <div class="row"><span class="ref">US$69.99</span><span class="price">US$39.99</span></div>
-          <span class="stock">● En stock</span></div>
-        </a>
-        <a href="ps4-diablo-iv.html" class="card">
-          <div class="cover">[ Portada ]</div>
-          <div class="body"><span class="platform-tag">PS4 · DIGITAL</span><h3>Diablo IV</h3>
-          <div class="row"><span class="ref">US$49.99</span><span class="price">US$29.99</span></div>
-          <span class="stock">● En stock</span></div>
-        </a>
-        <!-- END:PRODUCTS -->
+      <div class="product-grid" id="productGrid" data-grid data-plataforma="PS5">
       </div>
 
       <nav class="pagination" aria-label="Paginación">
@@ -169,6 +143,7 @@
     </div>
   </footer>
   <script src="script.js"></script>
+  <script src="catalogo.js"></script>
   <!-- Vercel Web Analytics -->
   <script>
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };

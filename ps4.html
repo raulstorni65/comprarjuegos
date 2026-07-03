@@ -108,33 +108,7 @@
            entre BEGIN:PRODUCTS y END:PRODUCTS con una .card por juego.
            Los de abajo son ejemplos para mostrar la estructura.
            ============================================================ -->
-      <div class="product-grid" id="productGrid">
-        <!-- BEGIN:PRODUCTS -->
-        <a href="ps4-red-dead-redemption-2.html" class="card">
-          <div class="cover">[ Portada ]</div>
-          <div class="body"><span class="platform-tag">PS4 · DIGITAL</span><h3>Red Dead Redemption 2</h3>
-          <div class="row"><span class="ref">US$49.99</span><span class="price">US$27.99</span></div>
-          <span class="stock">● En stock</span></div>
-        </a>
-        <a href="ps4-god-of-war-ragnarok.html" class="card">
-          <div class="cover">[ Portada ]</div>
-          <div class="body"><span class="platform-tag">PS4 · DIGITAL</span><h3>God of War Ragnarök</h3>
-          <div class="row"><span class="ref">US$59.99</span><span class="price">US$34.99</span></div>
-          <span class="stock">● En stock</span></div>
-        </a>
-        <a href="ps4-the-last-of-us-part-ii.html" class="card">
-          <div class="cover">[ Portada ]</div>
-          <div class="body"><span class="platform-tag">PS4 · DIGITAL</span><h3>The Last of Us Part II</h3>
-          <div class="row"><span class="ref">US$39.99</span><span class="price">US$25.99</span></div>
-          <span class="stock">● En stock</span></div>
-        </a>
-        <a href="ps4-elden-ring.html" class="card">
-          <div class="cover">[ Portada ]</div>
-          <div class="body"><span class="platform-tag">PS4 · DIGITAL</span><h3>Elden Ring</h3>
-          <div class="row"><span class="ref">US$59.99</span><span class="price">US$37.99</span></div>
-          <span class="stock">● En stock</span></div>
-        </a>
-        <!-- END:PRODUCTS -->
+      <div class="product-grid" id="productGrid" data-grid data-plataforma="PS4">
       </div>
 
       <nav class="pagination" aria-label="Paginación">
@@ -169,6 +143,7 @@
     </div>
   </footer>
   <script src="script.js"></script>
+  <script src="catalogo.js"></script>
   <!-- Vercel Web Analytics -->
   <script>
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };

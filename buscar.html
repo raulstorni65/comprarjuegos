@@ -105,7 +105,7 @@
     function card(j) {
       const ref = j.ref ? '<span class="ref">US$' + j.ref + '</span>' : '';
       return '<a href="ps4-' + j.slug + '.html" class="card">' +
-        '<div class="cover">[ Portada ]</div>' +
+        (j.img ? '<div class="cover"><img src="' + j.img + '" alt="' + j.titulo + '" loading="lazy"></div>' : '<div class="cover">[ Portada ]</div>') +
         '<div class="body"><span class="platform-tag">' + (j.plataforma || 'PS4') + ' · DIGITAL</span>' +
         '<h3>' + j.titulo + '</h3>' +
         '<div class="row">' + ref + '<span class="price">US$' + (j.precio || '') + '</span></div>' +

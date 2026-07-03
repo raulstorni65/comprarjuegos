@@ -149,21 +149,21 @@
         </div>
       </div>
 
-      <!-- Tarjeta firma: ancla de precio honesta (precios en USD base, se convierten) -->
-      <div class="price-card" aria-label="Ejemplo de ficha de producto">
+      <!-- Tarjeta firma: se llena con el último juego publicado (catalogo.js) -->
+      <div class="price-card" id="heroCard" aria-label="Juego destacado">
         <span class="pc-flag">EN STOCK</span>
-        <div class="pc-cover">[ Portada del juego ]</div>
-        <div class="pc-title">God of War Ragnarök</div>
+        <div class="pc-cover" id="pcCover">[ Portada del juego ]</div>
+        <div class="pc-title" id="pcTitle">Tu próximo juego, acá</div>
         <div class="pc-specs">
           <span class="spec">DIGITAL</span>
           <span class="spec">ESPAÑOL</span>
           <span class="spec">MULTI-REGIÓN</span>
           <span class="spec ps5">CORRE EN PS5</span>
         </div>
-        <div class="pc-price-row">
-          <span class="pc-ref">US$59.99</span>
-          <span class="pc-price">US$34.99</span>
-          <span class="pc-save">−42%</span>
+        <div class="pc-price-row" id="pcPriceRow" style="display:none">
+          <span class="pc-ref" id="pcRef"></span>
+          <span class="pc-price" id="pcPrice"></span>
+          <span class="pc-save" id="pcSave"></span>
         </div>
       </div>
     </div>
@@ -217,34 +217,8 @@
         <div><span class="eyebrow">Los más buscados</span><h2>Destacados de la semana</h2></div>
         <a href="ps4.html" class="link">Ver todo →</a>
       </div>
-      <div class="product-grid">
-        <a href="producto-ps4-template.html" class="card">
-          <div class="cover">[ Portada ]</div>
-          <div class="body"><span class="platform-tag">PS4 · DIGITAL</span><h3>Red Dead Redemption 2</h3>
-          <div class="row"><span class="ref">US$49.99</span><span class="price">US$27.99</span></div>
-          <span class="stock">● En stock</span></div>
-        </a>
-        <a href="producto-ps4-template.html" class="card">
-          <div class="cover">[ Portada ]</div>
-          <div class="body"><span class="platform-tag">PS4 · DIGITAL</span><h3>The Last of Us Part II</h3>
-          <div class="row"><span class="ref">US$39.99</span><span class="price">US$25.99</span></div>
-          <span class="stock">● En stock</span></div>
-        </a>
-        <a href="producto-ps4-template.html" class="card">
-          <div class="cover">[ Portada ]</div>
-          <div class="body"><span class="platform-tag">PS4 · DIGITAL</span><h3>Elden Ring</h3>
-          <div class="row"><span class="ref">US$59.99</span><span class="price">US$37.99</span></div>
-          <span class="stock">● En stock</span></div>
-        </a>
-        <a href="producto-ps4-template.html" class="card">
-          <div class="cover">[ Portada ]</div>
-          <div class="body"><span class="platform-tag">PS4 · DIGITAL</span><h3>Marvel's Spider-Man</h3>
-          <div class="row"><span class="ref">US$39.99</span><span class="price">US$22.99</span></div>
-          <span class="stock">● En stock</span></div>
-        </a>
-      </div>
-    </div>
-  </section>
+      <div class="product-grid" data-grid data-plataforma="PS4" data-limit="8"></div>
+</section>
 
   <!-- ============ POR QUÉ NOSOTROS ============ -->
   <section class="why block">

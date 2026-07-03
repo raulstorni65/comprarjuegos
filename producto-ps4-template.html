@@ -106,22 +106,7 @@
   }
   </script>
   <!-- END:SCHEMA_VIDEO -->
-  <!-- ===== [A5] FAQPage (Google muestra las preguntas en el resultado) =====
-       n8n: podés sumar más pares Question/Answer reales dentro de mainEntity. -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": "\u00bf{{TITULO}} viene en espa\u00f1ol?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Este t\u00edtulo viene en {{IDIOMA}}, regi\u00f3n {{REGION}}." } },
-      { "@type": "Question", "name": "\u00bf{{TITULO}} funciona en PS5?",
-        "acceptedAnswer": { "@type": "Answer", "text": "{{COMPAT_PS5_TEXTO}}" } },
-      { "@type": "Question", "name": "\u00bfEn qu\u00e9 moneda pago {{TITULO}}?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Los precios est\u00e1n en d\u00f3lares (USD). Tu banco o PayPal hace la conversi\u00f3n a tu moneda local al pagar." } }
-    ]
-  }
-  </script>
+  <!--FAQ_SCHEMA-->
 </head>
 
 <body>
@@ -305,11 +290,7 @@
         <p>Los títulos digitales se entregan por código o cuenta de forma inmediata tras el pago. Para títulos físicos, las opciones y costos de envío se calculan según tu país. Aceptamos tarjetas internacionales, PayPal y Mercado Pago. Más info en <a href="medios-de-pago.html">medios de pago</a>.</p>
 
         <h2 id="faq-prod">Preguntas sobre este juego</h2>
-        <div class="faq-list" style="margin:0">
-          <div class="faq-item"><button class="faq-q">¿{{TITULO}} viene en español?</button><div class="faq-a"><p>Este título viene en {{IDIOMA}}, región {{REGION}}.</p></div></div>
-          <div class="faq-item"><button class="faq-q">¿Funciona en PS5?</button><div class="faq-a"><p>{{COMPAT_PS5_TEXTO}}</p></div></div>
-          <div class="faq-item"><button class="faq-q">¿En qué moneda pago?</button><div class="faq-a"><p>Los precios están en dólares (USD). Tu banco o PayPal hace la conversión a tu moneda local al pagar.</p></div></div>
-        </div>
+        <div class="faq-list" style="margin:0"><!--FAQ_ITEMS--></div>
       </div>
     </div>
   </section>

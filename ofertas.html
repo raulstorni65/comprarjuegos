@@ -108,33 +108,7 @@
            entre BEGIN:PRODUCTS y END:PRODUCTS con una .card por juego.
            Los de abajo son ejemplos para mostrar la estructura.
            ============================================================ -->
-      <div class="product-grid" id="productGrid">
-        <!-- BEGIN:PRODUCTS -->
-        <a href="ps4-cuphead.html" class="card">
-          <div class="cover">[ Portada ]</div>
-          <div class="body"><span class="platform-tag">PS4 · DIGITAL</span><h3>Cuphead</h3>
-          <div class="row"><span class="ref">US$19.99</span><span class="price">US$9.99</span></div>
-          <span class="stock">● En stock</span></div>
-        </a>
-        <a href="ps4-dragon-ball-xenoverse-2.html" class="card">
-          <div class="cover">[ Portada ]</div>
-          <div class="body"><span class="platform-tag">PS4 · DIGITAL</span><h3>DRAGON BALL Xenoverse 2</h3>
-          <div class="row"><span class="ref">US$19.99</span><span class="price">US$5.99</span></div>
-          <span class="stock">● En stock</span></div>
-        </a>
-        <a href="ps4-mortal-kombat-11.html" class="card">
-          <div class="cover">[ Portada ]</div>
-          <div class="body"><span class="platform-tag">PS4 · DIGITAL</span><h3>Mortal Kombat 11</h3>
-          <div class="row"><span class="ref">US$49.99</span><span class="price">US$14.99</span></div>
-          <span class="stock">● En stock</span></div>
-        </a>
-        <a href="ps4-resident-evil-4.html" class="card">
-          <div class="cover">[ Portada ]</div>
-          <div class="body"><span class="platform-tag">PS4 · DIGITAL</span><h3>Resident Evil 4</h3>
-          <div class="row"><span class="ref">US$39.99</span><span class="price">US$24.99</span></div>
-          <span class="stock">● En stock</span></div>
-        </a>
-        <!-- END:PRODUCTS -->
+      <div class="product-grid" id="productGrid" data-grid data-orden="descuento">
       </div>
 
       <nav class="pagination" aria-label="Paginación">
@@ -169,6 +143,7 @@
     </div>
   </footer>
   <script src="script.js"></script>
+  <script src="catalogo.js"></script>
   <!-- Vercel Web Analytics -->
   <script>
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
