@@ -3,6 +3,7 @@
   let juegos = [];
   try { const r = await fetch('/juegos.json', { cache: 'no-store' }); juegos = await r.json(); } catch (e) { juegos = []; }
   if (!Array.isArray(juegos)) juegos = [];
+  const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const PER_PAGE = 24;
   const TR = { action: 'Acción', adventure: 'Aventura', sports: 'Deportes', shooter: 'Shooter', rpg: 'RPG', racing: 'Carreras', fighting: 'Lucha', puzzle: 'Puzzle', strategy: 'Estrategia', indie: 'Indie', arcade: 'Arcade', simulation: 'Simulación', platformer: 'Plataformas', family: 'Familiar', casual: 'Casual', 'massively multiplayer': 'Multijugador' };
   const disc = (j) => { const r = parseFloat(j.ref), p = parseFloat(j.precio); return (r && p && r > p) ? (1 - p / r) : 0; };
@@ -17,7 +18,9 @@
     let base = juegos.slice();
     const plat = el.getAttribute('data-plataforma');
     if (plat) base = base.filter((j) => String(j.plataforma || 'PS4').toUpperCase() === plat.toUpperCase());
-    if (el.getAttribute('data-orden') === 'descuento') base.sort((a, b) => disc(b) - disc(a)); else base.reverse();
+    if (el.getAttribute('data-orden') === 'descuento') base.sort((a, b) => disc(b) - disc(a));
+    else if (el.hasAttribute('data-catalog')) base.reverse();
+    else base = shuffle(base);
 
     // grilla simple (home): sin filtros ni paginación
     if (!el.hasAttribute('data-catalog')) {
@@ -68,7 +71,7 @@
   // hero (home)
   const hc = document.getElementById('heroCard');
   if (hc && juegos.length) {
-    const j = juegos[juegos.length - 1];
+    const j = juegos[Math.floor(Math.random() * juegos.length)];
     const cov = document.getElementById('pcCover'); if (cov) cov.innerHTML = j.img ? `<img src="${esc(j.img)}" alt="${esc(j.titulo)}">` : '[ Portada del juego ]';
     const t = document.getElementById('pcTitle'); if (t) t.textContent = j.titulo;
     const pr = document.getElementById('pcPriceRow'); if (pr) pr.style.display = '';
