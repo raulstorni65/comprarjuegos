@@ -65,6 +65,12 @@
         }
       }
     }
+    // filtro inicial desde la URL (?genero=)
+    const urlGen = new URLSearchParams(location.search).get('genero');
+    if (urlGen) {
+      genero = urlGen.toLowerCase();
+      if (filtersEl) filtersEl.querySelectorAll('.filter-chip').forEach((c) => c.classList.toggle('active', c.getAttribute('data-g') === genero));
+    }
     render();
   });
 

@@ -32,11 +32,11 @@
 
   <meta property="og:type" content="product" />
   <meta property="og:site_name" content="ComprarJuegos" />
-  <meta property="og:locale" content="es_ES" />
+  <meta property="og:locale" content="es_AR" />
   <meta property="og:url" content="https://www.comprarjuegos.com/ps4-{{SLUG}}.html" />
   <meta property="og:title" content="{{TITULO}} - PS4" />
   <meta property="og:description" content="{{META_DESCRIPTION}}" />
-  <meta property="og:image" content="{{IMG_PRINCIPAL}}" />
+  <meta property="og:image" content="{{OG_IMAGE}}" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{{TITULO}} - PS4" />
   <meta name="twitter:description" content="{{META_DESCRIPTION}}" />
@@ -87,7 +87,7 @@
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.comprarjuegos.com/" },
       { "@type": "ListItem", "position": 2, "name": "PS4", "item": "https://www.comprarjuegos.com/ps4.html" },
-      { "@type": "ListItem", "position": 3, "name": "{{GENERO}}", "item": "https://www.comprarjuegos.com/ps4-genero-{{GENERO_SLUG}}.html" },
+      { "@type": "ListItem", "position": 3, "name": "{{GENERO}}", "item": "https://www.comprarjuegos.com/ps4.html?genero={{GENERO_SLUG}}" },
       { "@type": "ListItem", "position": 4, "name": "{{TITULO}}" }
     ]
   }
@@ -109,7 +109,7 @@
   <!--FAQ_SCHEMA-->
 </head>
 
-<body>
+<body data-slug="{{SLUG}}" data-genero="{{GENERO}}">
 
   <!-- ============ HEADER (sin carrito) ============ -->
   <header class="site-header">
@@ -140,7 +140,7 @@
     <nav class="breadcrumb" aria-label="Migas de pan">
       <a href="index.html">Inicio</a> ›
       <a href="ps4.html">PS4</a> ›
-      <a href="ps4-genero-{{GENERO_SLUG}}.html">{{GENERO}}</a> ›
+      <a href="ps4.html?genero={{GENERO_SLUG}}">{{GENERO}}</a> ›
       <span>{{TITULO}}</span>
     </nav>
   </div>
@@ -260,8 +260,8 @@
         <h2 id="descripcion">Sobre {{TITULO}}</h2>
         <p>{{DESCRIPCION}}</p>
         <p>¿Buscás más títulos parecidos? Mirá todos los juegos de
-          <a href="ps4-genero-{{GENERO_SLUG}}.html">{{GENERO}} para PS4</a> o el resto de
-          <a href="ps4-desarrollador-{{DEV_SLUG}}.html">{{DESARROLLADOR}}</a>.</p>
+          <a href="ps4.html?genero={{GENERO_SLUG}}">{{GENERO}} para PS4</a> o el resto de
+          <a href="ps4.html">{{DESARROLLADOR}}</a>.</p>
 
         <h2 id="caracteristicas">Características destacadas</h2>
         <ul>
@@ -296,15 +296,10 @@
   </section>
 
   <!-- ============ RELACIONADOS ============ -->
-  <section class="block" style="padding-top:0">
+  <section class="block" style="padding-top:0" id="relacionados-sec">
     <div class="wrap">
-      <div class="section-head"><div><span class="eyebrow">Saga {{SAGA}} · {{GENERO}}</span><h2>También te puede interesar</h2></div></div>
-      <div class="product-grid">
-        <a href="ps4-{{REL_1_SLUG}}.html" class="card"><div class="cover">[ Portada ]</div><div class="body"><span class="platform-tag">PS4</span><h3>{{REL_1_TITULO}}</h3><div class="row"><span class="price">US${{REL_1_PRECIO_USD}}</span></div></div></a>
-        <a href="ps4-{{REL_2_SLUG}}.html" class="card"><div class="cover">[ Portada ]</div><div class="body"><span class="platform-tag">PS4</span><h3>{{REL_2_TITULO}}</h3><div class="row"><span class="price">US${{REL_2_PRECIO_USD}}</span></div></div></a>
-        <a href="ps4-{{REL_3_SLUG}}.html" class="card"><div class="cover">[ Portada ]</div><div class="body"><span class="platform-tag">PS4</span><h3>{{REL_3_TITULO}}</h3><div class="row"><span class="price">US${{REL_3_PRECIO_USD}}</span></div></div></a>
-        <a href="ps4-{{REL_4_SLUG}}.html" class="card"><div class="cover">[ Portada ]</div><div class="body"><span class="platform-tag">PS4</span><h3>{{REL_4_TITULO}}</h3><div class="row"><span class="price">US${{REL_4_PRECIO_USD}}</span></div></div></a>
-      </div>
+      <div class="section-head"><div><span class="eyebrow">{{GENERO}}</span><h2>También te puede interesar</h2></div></div>
+      <div class="product-grid" id="relacionados"></div>
     </div>
   </section>
 
@@ -332,6 +327,7 @@
   </footer>
 
   <script src="script.js"></script>
+  <script src="relacionados.js"></script>
   <!-- Vercel Web Analytics -->
   <script>
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
