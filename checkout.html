@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finalizar compra — ComprarJuegos</title>
+  <meta name="robots" content="noindex,follow" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="theme-color" content="#0B0F1A" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .co-wrap { max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; }
+    .co-game { display: flex; gap: 18px; align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; margin-bottom: 28px; }
+    .co-game .cover { width: 92px; height: 122px; border-radius: 8px; overflow: hidden; flex: none; background: linear-gradient(160deg, #232c47, #11162a); }
+    .co-game .cover img { width: 100%; height: 100%; object-fit: cover; }
+    .co-game h1 { font-size: 1.25rem; margin: 0 0 6px; }
+    .co-price { font-family: var(--font-display); font-weight: 700; font-size: 1.6rem; color: var(--warm); }
+    .co-step { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 22px; margin-bottom: 18px; }
+    .co-step h2 { font-size: 1.05rem; margin: 0 0 12px; display: flex; align-items: center; gap: 10px; }
+    .co-num { width: 26px; height: 26px; border-radius: 50%; background: var(--cool-soft); color: var(--cool); display: grid; place-items: center; font-family: var(--font-mono); font-size: .8rem; flex: none; }
+    .co-step p { color: var(--muted); margin: 0 0 14px; font-size: .95rem; }
+    .co-btn { display: inline-block; background: var(--cool); color: #0a0d18; font-weight: 600; padding: 13px 22px; border-radius: 999px; text-decoration: none; }
+    .co-btn:hover { filter: brightness(1.08); }
+    .co-field { margin-bottom: 14px; }
+    .co-field label { display: block; font-size: .85rem; color: var(--muted); margin-bottom: 6px; }
+    .co-field input { width: 100%; background: var(--bg); border: 1px solid var(--line); border-radius: 9px; padding: 12px 14px; color: var(--text); font-family: var(--font-body); font-size: .95rem; box-sizing: border-box; }
+    .co-field input:focus { outline: none; border-color: var(--cool); }
+    .co-submit { width: 100%; background: var(--warm); color: #1a1206; font-weight: 700; border: none; padding: 15px; border-radius: 999px; font-size: 1rem; cursor: pointer; font-family: var(--font-body); }
+    .co-submit:hover { filter: brightness(1.05); }
+    .co-note { font-size: .8rem; color: var(--muted-2); margin-top: 12px; }
+    .co-ok { display: none; text-align: center; padding: 40px 20px; }
+    .co-ok .big { font-size: 1.5rem; color: var(--ok); margin-bottom: 10px; font-family: var(--font-display); }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html" class="logo"><span class="mark">C</span>ComprarJuegos</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="co-wrap">
+    <a href="#" id="volver" class="link" style="display:inline-block;margin-bottom:18px">← Volver al juego</a>
+
+    <div class="co-game">
+      <div class="cover" id="coCover"></div>
+      <div>
+        <h1 id="coTitulo">Cargando…</h1>
+        <div class="co-price" id="coPrecio"></div>
+        <span class="platform-tag">PS4 · CUENTA DIGITAL</span>
+      </div>
+    </div>
+
+    <form id="coForm">
+      <div class="co-step">
+        <h2><span class="co-num">1</span> Comprá una tarjeta de regalo de Amazon</h2>
+        <p>Para pagar tu juego necesitás una <b>tarjeta de regalo de Amazon (USA) de <span id="coMonto"></span></b>. La comprás al instante en G2A con tarjeta, y te llega el código por mail.</p>
+        <a href="#" target="_blank" rel="noopener" class="co-btn" id="coG2A">Comprar tarjeta Amazon en G2A →</a>
+      </div>
+
+      <div class="co-step">
+        <h2><span class="co-num">2</span> Pegá el código y tus datos</h2>
+        <p>Cuando tengas el código de la tarjeta Amazon, completá esto. Verificamos el código y te enviamos el juego a tu email.</p>
+        <div class="co-field"><label>Nombre</label><input type="text" name="nombre" required /></div>
+        <div class="co-field"><label>Email (donde recibís el juego)</label><input type="email" name="email" required /></div>
+        <div class="co-field"><label>Código de la tarjeta Amazon</label><input type="text" name="codigo" required placeholder="XXXX-XXXXXX-XXXX" /></div>
+        <input type="hidden" name="juego" id="coHiddenJuego" />
+        <input type="hidden" name="precio" id="coHiddenPrecio" />
+        <button type="submit" class="co-submit">Enviar y recibir mi juego</button>
+        <p class="co-note">Al enviar, verificamos el código antes de entregar. Si hubiera algún problema con la tarjeta, te contactamos a ese email.</p>
+      </div>
+    </form>
+
+    <div class="co-ok" id="coOk">
+      <div class="big">¡Listo! Recibimos tu pedido</div>
+      <p>Estamos verificando el código de tu tarjeta. En breve te llega el juego a tu email. ¡Gracias por comprar en ComprarJuegos!</p>
+      <a href="index.html" class="co-btn" style="margin-top:16px">Volver al inicio</a>
+    </div>
+  </div>
+
+  <script>
+    const LINKS = {
+      10: 'https://www.g2a.com/es/amazon-gift-card-10-usd-amazon-key-united-states-i10000001698108?suid=dfe59a4d-ee9f-4361-8003-016377764387',
+      15: 'https://www.g2a.com/es/amazon-gift-card-15-usd-amazon-key-united-states-i10000001698252?suid=862663b5-832b-472b-9eec-c7160d53a4ed',
+      20: 'https://www.g2a.com/es/amazon-gift-card-20-usd-amazon-key-united-states-i10000001698003?suid=74325c37-05fc-42b6-ab31-d586650025b9',
+      25: 'https://www.g2a.com/es/amazon-gift-card-25-usd-amazon-key-united-states-i10000178883011?suid=276f0e94-1fa4-424b-b9e1-3db01a1ecff1',
+      30: 'https://www.g2a.com/es/amazon-gift-card-30-usd-amazon-key-united-states-i10000001698052?suid=8ead99f0-247a-4888-8b3b-8a320d5acee2',
+      35: 'https://www.g2a.com/es/amazon-gift-card-35-usd-amazon-key-united-states-i10000001698204?suid=c72ecdf9-e826-4c26-a9f0-348d1f5c6c52',
+      50: 'https://www.g2a.com/es/amazon-gift-card-50-usd-amazon-key-united-states-i10000001698084?suid=002e03e2-47ba-4d0a-b71c-becd1ce85916',
+    };
+    const p = new URLSearchParams(location.search);
+    const titulo = p.get('titulo') || 'Tu juego';
+    const precio = parseInt(p.get('precio') || '0', 10);
+    const img = p.get('img') || '';
+    const slug = p.get('slug') || '';
+    document.getElementById('coTitulo').textContent = titulo;
+    document.getElementById('coPrecio').textContent = precio ? 'US$' + precio : '';
+    document.getElementById('coMonto').textContent = 'US$' + precio;
+    if (img) document.getElementById('coCover').innerHTML = '<img src="' + img + '" alt="' + titulo + '">';
+    if (slug) document.getElementById('volver').href = '/ps4-' + slug + '.html';
+    document.getElementById('coHiddenJuego').value = titulo + ' (PS4)';
+    document.getElementById('coHiddenPrecio').value = 'US$' + precio;
+    // link G2A según el precio (usa el tramo exacto)
+    const link = LINKS[precio] || LINKS[50];
+    document.getElementById('coG2A').href = link;
+
+    document.getElementById('coForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const data = Object.fromEntries(new FormData(e.target));
+      try {
+        await fetch('https://script.google.com/macros/s/AKfycbxeksTHb0oB7k9C1vdVQaOrBoOxO9wfPU602X-D06ZvotjUWdhlLoUbLzdqGFWDkFpxAQ/exec', {
+          method: 'POST', mode: 'no-cors',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data),
+        });
+        document.getElementById('coForm').style.display = 'none';
+        document.getElementById('coOk').style.display = 'block';
+      } catch (err) { alert('Hubo un problema al enviar. Revisá tu conexión e intentá de nuevo.'); }
+    });
+  </script>
+  <script src="script.js"></script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
