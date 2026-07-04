@@ -18,5 +18,15 @@
     "img": "/img/ps4-dragon-ball-xenoverse-2-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-04"
+  },
+  {
+    "titulo": "EA SPORTS FC 26",
+    "slug": "ea-sports-fc-26",
+    "plataforma": "PS4",
+    "precio": "50.00",
+    "ref": "69.99",
+    "img": "/img/ps4-ea-sports-fc-26-portada.jpg",
+    "genero": "Simulation, Sports",
+    "fecha": "2026-07-04"
   }
 ]
