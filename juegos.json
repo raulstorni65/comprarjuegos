@@ -20,13 +20,13 @@
     "fecha": "2026-07-04"
   },
   {
-    "titulo": "EA SPORTS FC 26",
-    "slug": "ea-sports-fc-26",
+    "titulo": "Call of Duty",
+    "slug": "call-of-duty",
     "plataforma": "PS4",
     "precio": "50.00",
     "ref": "69.99",
-    "img": "/img/ps4-ea-sports-fc-26-portada.jpg",
-    "genero": "Simulation, Sports",
+    "img": "/img/ps4-call-of-duty-portada.jpg",
+    "genero": "Shooter",
     "fecha": "2026-07-04"
   }
 ]
