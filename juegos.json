@@ -18,5 +18,15 @@
     "img": "/img/ps4-dragon-ball-xenoverse-2-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-04"
+  },
+  {
+    "titulo": "Resident Evil 4",
+    "slug": "resident-evil-4",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-resident-evil-4-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-04"
   }
 ]
