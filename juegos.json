@@ -20,13 +20,13 @@
     "fecha": "2026-07-04"
   },
   {
-    "titulo": "Call of Duty",
-    "slug": "call-of-duty",
+    "titulo": "Red Dead Redemption 2",
+    "slug": "red-dead-redemption-2",
     "plataforma": "PS4",
-    "precio": "50.00",
-    "ref": "69.99",
-    "img": "/img/ps4-call-of-duty-portada.jpg",
-    "genero": "Shooter",
+    "precio": "35.00",
+    "ref": "54.36",
+    "img": "/img/ps4-red-dead-redemption-2-portada.jpg",
+    "genero": "Action",
     "fecha": "2026-07-04"
   }
 ]
