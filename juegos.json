@@ -98,5 +98,15 @@
     "img": "/img/ps4-call-of-duty-black-ops-iii-portada.png",
     "genero": "Shooter, Action",
     "fecha": "2026-07-08"
+  },
+  {
+    "titulo": "Cuphead",
+    "slug": "cuphead",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-cuphead-portada.jpg",
+    "genero": "Platformer, Indie",
+    "fecha": "2026-07-08"
   }
 ]
