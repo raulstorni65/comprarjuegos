@@ -88,5 +88,15 @@
     "img": "/img/ps4-gran-turismo-7-portada.jpg",
     "genero": "Racing",
     "fecha": "2026-07-08"
+  },
+  {
+    "titulo": "Call of Duty: Black Ops III",
+    "slug": "call-of-duty-black-ops-iii",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.79",
+    "img": "/img/ps4-call-of-duty-black-ops-iii-portada.png",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-08"
   }
 ]
