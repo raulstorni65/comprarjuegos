@@ -108,5 +108,15 @@
     "img": "/img/ps4-cuphead-portada.jpg",
     "genero": "Platformer, Indie",
     "fecha": "2026-07-08"
+  },
+  {
+    "titulo": "Uncharted: The Nathan Drake Collection",
+    "slug": "uncharted-the-nathan-drake-collection",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "7.19",
+    "img": "/img/ps4-uncharted-the-nathan-drake-collection-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-08"
   }
 ]
