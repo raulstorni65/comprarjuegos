@@ -128,5 +128,15 @@
     "img": "/img/ps4-hogwarts-legacy-portada.jpg",
     "genero": "Action, RPG",
     "fecha": "2026-07-08"
+  },
+  {
+    "titulo": "Diablo IV",
+    "slug": "diablo-iv",
+    "plataforma": "PS4",
+    "precio": "30.00",
+    "ref": "49.99",
+    "img": "/img/ps4-diablo-iv-portada.jpg",
+    "genero": "Action, RPG",
+    "fecha": "2026-07-08"
   }
 ]
