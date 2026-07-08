@@ -38,5 +38,15 @@
     "img": "/img/ps4-nba-2k26-portada.jpg",
     "genero": "Sports",
     "fecha": "2026-07-08"
+  },
+  {
+    "titulo": "Mortal Kombat 11",
+    "slug": "mortal-kombat-11",
+    "plataforma": "PS4",
+    "precio": "30.00",
+    "ref": "49.99",
+    "img": "/img/ps4-mortal-kombat-11-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-08"
   }
 ]
