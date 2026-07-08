@@ -20,16 +20,6 @@
     "fecha": "2026-07-04"
   },
   {
-    "titulo": "EA SPORTS FC 26",
-    "slug": "ea-sports-fc-26",
-    "plataforma": "PS4",
-    "precio": "41.99",
-    "ref": "69.99",
-    "img": "/img/ps4-ea-sports-fc-26-portada.jpg",
-    "genero": "Simulation, Sports",
-    "fecha": "2026-07-04"
-  },
-  {
     "titulo": "NBA 2K26",
     "slug": "nba-2k26",
     "plataforma": "PS4",
@@ -88,5 +78,15 @@
     "img": "/img/ps4-red-dead-redemption-2-portada.jpg",
     "genero": "Action",
     "fecha": "2026-07-04"
+  },
+  {
+    "titulo": "EA SPORTS FC 26",
+    "slug": "ea-sports-fc-26",
+    "plataforma": "PS4",
+    "precio": "50.00",
+    "ref": "69.99",
+    "img": "/img/ps4-ea-sports-fc-26-portada.jpg",
+    "genero": "Deportes",
+    "fecha": "2026-07-08"
   }
 ]
