@@ -20,16 +20,6 @@
     "fecha": "2026-07-04"
   },
   {
-    "titulo": "NBA 2K26",
-    "slug": "nba-2k26",
-    "plataforma": "PS4",
-    "precio": "34.57",
-    "ref": "57.62",
-    "img": "/img/ps4-nba-2k26-portada.jpg",
-    "genero": "Sports",
-    "fecha": "2026-07-04"
-  },
-  {
     "titulo": "Red Dead Redemption 2",
     "slug": "red-dead-redemption-2",
     "plataforma": "PS4",
@@ -87,6 +77,16 @@
     "ref": "69.99",
     "img": "/img/ps4-ea-sports-fc-26-portada.jpg",
     "genero": "Deportes",
+    "fecha": "2026-07-08"
+  },
+  {
+    "titulo": "NBA 2K26",
+    "slug": "nba-2k26",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "57.62",
+    "img": "/img/ps4-nba-2k26-portada.jpg",
+    "genero": "Sports",
     "fecha": "2026-07-08"
   }
 ]
