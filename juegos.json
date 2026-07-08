@@ -68,5 +68,15 @@
     "img": "/img/ps4-resident-evil-4-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-08"
+  },
+  {
+    "titulo": "Call of Duty: WWII",
+    "slug": "call-of-duty-wwii",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.79",
+    "img": "/img/ps4-call-of-duty-wwii-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-08"
   }
 ]
