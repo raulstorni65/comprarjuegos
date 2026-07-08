@@ -118,5 +118,15 @@
     "img": "/img/ps4-uncharted-the-nathan-drake-collection-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-08"
+  },
+  {
+    "titulo": "Hogwarts Legacy",
+    "slug": "hogwarts-legacy",
+    "plataforma": "PS4",
+    "precio": "50.00",
+    "ref": "69.99",
+    "img": "/img/ps4-hogwarts-legacy-portada.jpg",
+    "genero": "Action, RPG",
+    "fecha": "2026-07-08"
   }
 ]
