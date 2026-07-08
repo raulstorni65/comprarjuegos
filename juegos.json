@@ -148,5 +148,15 @@
     "img": "/img/ps4-call-of-duty-modern-warfare-portada.jpg",
     "genero": "Shooter, Action",
     "fecha": "2026-07-08"
+  },
+  {
+    "titulo": "DRAGON BALL Z: KAKAROT",
+    "slug": "dragon-ball-z-kakarot",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-dragon-ball-z-kakarot-portada.jpg",
+    "genero": "Action, RPG",
+    "fecha": "2026-07-08"
   }
 ]
