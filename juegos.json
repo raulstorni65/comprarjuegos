@@ -48,5 +48,15 @@
     "img": "/img/ps4-mortal-kombat-11-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-08"
+  },
+  {
+    "titulo": "DRAGON BALL XENOVERSE 2",
+    "slug": "dragon-ball-xenoverse-2",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "5.99",
+    "img": "/img/ps4-dragon-ball-xenoverse-2-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-08"
   }
 ]
