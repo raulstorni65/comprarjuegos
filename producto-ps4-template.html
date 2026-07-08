@@ -4,28 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- ============================================================
-       PLANTILLA DE PRODUCTO PS4 (v5 - sin carrito, precio USD)
-       Pensada para que tu flujo de n8n genere un .html por juego.
-       Reemplazá los {{PLACEHOLDER}} y, en los bloques marcados con
-       comentarios BEGIN:X / END:X, tu flujo INCLUYE o BORRA la región
-       entera según corresponda (condicionales sin motor de templates).
-
-       Mapa de agentes:
-       [A1] Datos propios (Airtable) → TITULO, SLUG, SKU, PRECIO_USD,
-            PRECIO_PS_STORE_USD, AHORRO_PCT, CONDICION, FORMATO, FORMATO_BADGE,
-            IDIOMA, REGION, STOCK_*, ENTREGA, IMG_*, SAGA, REL_*, LINK_COMPRA
-       [A2] IGDB → GENERO, GENERO_SLUG, JUGADORES, ONLINE_PSPLUS, PESO_GB,
-            DESARROLLADOR, EDITOR, ANIO, EDAD_PEGI, COMPAT_PS5, TRAILER_ID, PUNTAJE_CRITICA
-       [A3] Redacción → META_TITLE, META_DESCRIPTION, RESUMEN, DESCRIPCION, FEATURE_1..3
-       [A4] QA / dedup
-       [A5] Schema (Product/Offer/Breadcrumb/Video)
-       [A6] Reseñas reales → NUM_RESEÑAS, PUNTAJE_PROMEDIO, RESEÑAS[]
-
-       Precio: SIEMPRE en USD. El banco/PayPal del comprador convierte al pagar.
-       LINK_COMPRA: URL de tu página/checkout de compra para ese título.
-       ============================================================ -->
-
   <title>{{META_TITLE}}</title>
   <meta name="description" content="{{META_DESCRIPTION}}" />
   <link rel="canonical" href="https://www.comprarjuegos.com/ps4-{{SLUG}}.html" />

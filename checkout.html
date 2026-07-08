@@ -101,12 +101,20 @@
     document.getElementById('coTitulo').textContent = titulo;
     document.getElementById('coPrecio').textContent = precio ? 'US$' + precio : '';
     document.getElementById('coMonto').textContent = 'US$' + precio;
-    if (img) document.getElementById('coCover').innerHTML = '<img src="' + img + '" alt="' + titulo + '">';
+    // FIX XSS: nunca inyectar parámetros de la URL con innerHTML
+    if (img && /^(\/|https?:\/\/)/.test(img)) {
+      const el = document.createElement('img');
+      el.src = img; el.alt = titulo;
+      document.getElementById('coCover').replaceChildren(el);
+    }
     if (slug) document.getElementById('volver').href = '/ps4-' + slug + '.html';
     document.getElementById('coHiddenJuego').value = titulo + ' (PS4)';
     document.getElementById('coHiddenPrecio').value = 'US$' + precio;
-    // link G2A según el precio (usa el tramo exacto)
-    const link = LINKS[precio] || LINKS[50];
+    // link G2A: tramo exacto o, si el precio no coincide, el tramo inmediato SUPERIOR
+    // (antes cualquier precio fuera de tabla mandaba a la gift card de US$50)
+    const tramos = Object.keys(LINKS).map(Number).sort((a, b) => a - b);
+    const tramo = tramos.find((t) => t >= precio) || tramos[tramos.length - 1];
+    const link = LINKS[tramo];
     document.getElementById('coG2A').href = link;
 
     document.getElementById('coForm').addEventListener('submit', async (e) => {
