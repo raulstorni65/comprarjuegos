@@ -78,5 +78,15 @@
     "img": "/img/ps4-call-of-duty-wwii-portada.jpg",
     "genero": "Shooter, Action",
     "fecha": "2026-07-08"
+  },
+  {
+    "titulo": "Gran Turismo 7",
+    "slug": "gran-turismo-7",
+    "plataforma": "PS4",
+    "precio": "50.00",
+    "ref": "69.99",
+    "img": "/img/ps4-gran-turismo-7-portada.jpg",
+    "genero": "Racing",
+    "fecha": "2026-07-08"
   }
 ]
