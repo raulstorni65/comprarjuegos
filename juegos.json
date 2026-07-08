@@ -138,5 +138,15 @@
     "img": "/img/ps4-diablo-iv-portada.jpg",
     "genero": "Action, RPG",
     "fecha": "2026-07-08"
+  },
+  {
+    "titulo": "Call of Duty: Modern Warfare",
+    "slug": "call-of-duty-modern-warfare",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.79",
+    "img": "/img/ps4-call-of-duty-modern-warfare-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-08"
   }
 ]
