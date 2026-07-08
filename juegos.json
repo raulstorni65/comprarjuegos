@@ -78,5 +78,15 @@
     "img": "/img/ps4-dragon-ball-xenoverse-2-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-04"
+  },
+  {
+    "titulo": "Red Dead Redemption 2",
+    "slug": "red-dead-redemption-2",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "54.36",
+    "img": "/img/ps4-red-dead-redemption-2-portada.jpg",
+    "genero": "Action",
+    "fecha": "2026-07-04"
   }
 ]
