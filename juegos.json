@@ -208,5 +208,15 @@
     "img": "/img/ps4-horizon-forbidden-west-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-09"
+  },
+  {
+    "titulo": "DRAGON BALL FighterZ",
+    "slug": "dragon-ball-fighterz",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "9.59",
+    "img": "/img/ps4-dragon-ball-fighterz-portada.jpg",
+    "genero": "Action, Fighting",
+    "fecha": "2026-07-09"
   }
 ]
