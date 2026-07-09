@@ -218,5 +218,15 @@
     "img": "/img/ps4-dragon-ball-fighterz-portada.jpg",
     "genero": "Action, Fighting",
     "fecha": "2026-07-09"
+  },
+  {
+    "titulo": "It Takes Two para PS4 y PS5",
+    "slug": "it-takes-two-para-ps4-y-ps5",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-it-takes-two-para-ps4-y-ps5-portada.jpg",
+    "genero": "Platformer, Adventure",
+    "fecha": "2026-07-09"
   }
 ]
