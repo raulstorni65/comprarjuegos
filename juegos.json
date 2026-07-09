@@ -188,5 +188,15 @@
     "img": "/img/ps4-ghost-of-tsushima-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-09"
+  },
+  {
+    "titulo": "WWE 2K25",
+    "slug": "wwe-2k25",
+    "plataforma": "PS4",
+    "precio": "50.00",
+    "ref": "69.99",
+    "img": "/img/ps4-wwe-2k25-portada.jpg",
+    "genero": "Simulation, Sports",
+    "fecha": "2026-07-09"
   }
 ]
