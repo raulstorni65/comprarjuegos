@@ -168,5 +168,15 @@
     "img": "/img/ps4-elden-ring-portada.jpg",
     "genero": "Action, RPG",
     "fecha": "2026-07-09"
+  },
+  {
+    "titulo": "Dead by Daylight",
+    "slug": "dead-by-daylight",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "29.99",
+    "img": "/img/ps4-dead-by-daylight-portada.jpg",
+    "genero": "Action",
+    "fecha": "2026-07-09"
   }
 ]
