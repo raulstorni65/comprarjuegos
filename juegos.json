@@ -198,5 +198,15 @@
     "img": "/img/ps4-wwe-2k25-portada.jpg",
     "genero": "Simulation, Sports",
     "fecha": "2026-07-09"
+  },
+  {
+    "titulo": "Horizon Forbidden West",
+    "slug": "horizon-forbidden-west",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "29.99",
+    "img": "/img/ps4-horizon-forbidden-west-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-09"
   }
 ]
