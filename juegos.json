@@ -178,5 +178,15 @@
     "img": "/img/ps4-dead-by-daylight-portada.jpg",
     "genero": "Action",
     "fecha": "2026-07-09"
+  },
+  {
+    "titulo": "Ghost of Tsushima",
+    "slug": "ghost-of-tsushima",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "29.39",
+    "img": "/img/ps4-ghost-of-tsushima-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-09"
   }
 ]
