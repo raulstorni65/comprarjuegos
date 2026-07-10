@@ -238,5 +238,15 @@
     "img": "/img/ps4-gang-beasts-portada.jpg",
     "genero": "Casual, Indie",
     "fecha": "2026-07-09"
+  },
+  {
+    "titulo": "God of War Ragnarök",
+    "slug": "god-of-war-ragnarok",
+    "plataforma": "PS4",
+    "precio": "50.00",
+    "ref": "69.99",
+    "img": "/img/ps4-god-of-war-ragnarok-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-10"
   }
 ]
