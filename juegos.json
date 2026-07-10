@@ -248,5 +248,15 @@
     "img": "/img/ps4-god-of-war-ragnarok-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-10"
+  },
+  {
+    "titulo": "Tom Clancy's The Division 2",
+    "slug": "tom-clancy-s-the-division-2",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "29.99",
+    "img": "/img/ps4-tom-clancy-s-the-division-2-portada.jpg",
+    "genero": "Shooter, Adventure",
+    "fecha": "2026-07-10"
   }
 ]
