@@ -228,5 +228,15 @@
     "img": "/img/ps4-it-takes-two-para-ps4-y-ps5-portada.jpg",
     "genero": "Platformer, Adventure",
     "fecha": "2026-07-09"
+  },
+  {
+    "titulo": "Gang Beasts",
+    "slug": "gang-beasts",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-gang-beasts-portada.jpg",
+    "genero": "Casual, Indie",
+    "fecha": "2026-07-09"
   }
 ]
