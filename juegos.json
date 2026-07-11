@@ -288,5 +288,15 @@
     "img": "/img/ps4-resident-evil-village-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-11"
+  },
+  {
+    "titulo": "God of War",
+    "slug": "god-of-war",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-god-of-war-portada.jpg",
+    "genero": "Action",
+    "fecha": "2026-07-11"
   }
 ]
