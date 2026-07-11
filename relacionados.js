@@ -19,6 +19,6 @@
   host.innerHTML = list.map((j) => {
     const img = j.img ? `<div class="cover"><img src="${esc(j.img)}" alt="${esc(j.titulo)}" loading="lazy"></div>` : `<div class="cover">[ Portada ]</div>`;
     const ref = j.ref ? `<span class="ref">US$${esc(j.ref)}</span>` : '';
-    return `<a href="/ps4-${esc(j.slug)}.html" class="card">${img}<div class="body"><span class="platform-tag">${esc(j.plataforma || 'PS4')} · DIGITAL</span><h3>${esc(j.titulo)}</h3><div class="row">${ref}<span class="price">US$${esc(j.precio)}</span></div><span class="stock">● En stock</span></div></a>`;
+    return `<a href="/ps4/${esc(j.slug)}" class="card">${img}<div class="body"><span class="platform-tag">${esc(j.plataforma || 'PS4')} · DIGITAL</span><h3>${esc(j.titulo)}</h3><div class="row">${ref}<span class="price">US$${esc(j.precio)}</span></div><span class="stock">● En stock</span></div></a>`;
   }).join('');
 })();

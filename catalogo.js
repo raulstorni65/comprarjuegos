@@ -11,7 +11,7 @@
   const card = (j) => {
     const img = j.img ? `<div class="cover"><img src="${esc(j.img)}" alt="${esc(j.titulo)}" loading="lazy"></div>` : `<div class="cover">[ Portada ]</div>`;
     const ref = j.ref ? `<span class="ref">US$${esc(j.ref)}</span>` : '';
-    return `<a href="/ps4-${esc(j.slug)}.html" class="card">${img}<div class="body"><span class="platform-tag">${esc(j.plataforma || 'PS4')} · DIGITAL</span><h3>${esc(j.titulo)}</h3><div class="row">${ref}<span class="price">US$${esc(j.precio)}</span></div><span class="stock">● En stock</span></div></a>`;
+    return `<a href="/ps4/${esc(j.slug)}" class="card">${img}<div class="body"><span class="platform-tag">${esc(j.plataforma || 'PS4')} · DIGITAL</span><h3>${esc(j.titulo)}</h3><div class="row">${ref}<span class="price">US$${esc(j.precio)}</span></div><span class="stock">● En stock</span></div></a>`;
   };
 
   document.querySelectorAll('[data-grid]').forEach((el) => {
@@ -84,6 +84,6 @@
     const rf = document.getElementById('pcRef'); if (rf && j.ref) rf.textContent = 'US$' + j.ref;
     const pc = document.getElementById('pcPrice'); if (pc) pc.textContent = 'US$' + j.precio;
     const sv = document.getElementById('pcSave'); if (sv) { const d = Math.round(disc(j) * 100); sv.textContent = d ? ('−' + d + '%') : ''; }
-    hc.style.cursor = 'pointer'; hc.onclick = () => { window.location.href = '/ps4-' + j.slug + '.html'; };
+    hc.style.cursor = 'pointer'; hc.onclick = () => { window.location.href = '/ps4/' + j.slug; };
   }
 })();

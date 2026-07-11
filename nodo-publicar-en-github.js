@@ -48,7 +48,7 @@ if (item.indice && item.indice.slug) {
 const SITE = 'https://www.comprarjuegos.com';
 const estaticas = ['', 'ps4.html', 'ps5.html', 'ofertas.html', 'preguntas-frecuentes.html', 'medios-de-pago.html', 'garantia.html', 'devoluciones.html', 'terminos-y-condiciones.html'];
 const hoy = new Date().toISOString().slice(0, 10);
-const urls = estaticas.map((x) => `${SITE}/${x}`).concat(indice.map((g) => `${SITE}/ps4-${g.slug}.html`));
+const urls = estaticas.map((x) => `${SITE}/${x}`).concat(indice.map((g) => `${SITE}/ps4/${g.slug}`));
 const sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls.map((u) => `  <url><loc>${u}</loc><lastmod>${hoy}</lastmod></url>`).join('\n') + '\n</urlset>\n';
 files.push({ path: 'sitemap.xml', content: sitemap, encoding: 'utf-8' });
 

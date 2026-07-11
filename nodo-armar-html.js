@@ -34,7 +34,7 @@ const ahorro = (psStore && precioVenta && psStore > precioVenta) ? Math.round((1
 const validoHasta = new Date(Date.now() + 365 * 864e5).toISOString().slice(0, 10);
 const compatTexto = 'Sí, es retrocompatible: podés jugarlo en PS5.';
 const trailer = dl.trailer || '';
-const linkCompra = `checkout.html?slug=${encodeURIComponent(slug)}&titulo=${encodeURIComponent(titulo)}&precio=${precioVenta || ''}&img=${encodeURIComponent(dl.coverRef)}`;
+const linkCompra = `/checkout.html?slug=${encodeURIComponent(slug)}&titulo=${encodeURIComponent(titulo)}&precio=${precioVenta || ''}&img=${encodeURIComponent(dl.coverRef)}`;
 
 // FORMATO real (antes estaba hardcodeado "Cuenta digital" y contradecía al FAQ)
 const esCuenta = /cuenta/i.test(dl.formato || '');
@@ -97,7 +97,7 @@ if (sobras) problemas.push('placeholders sin reemplazar: ' + [...new Set(sobras)
 if (/<!--\s*(BEGIN|END):/.test(html)) problemas.push('quedaron marcadores BEGIN/END');
 if (problemas.length) { qaOk = false; motivosArr.push('HTML roto: ' + problemas.join(' | ')); }
 
-return [{ json: { qa_ok: qaOk, qa_motivos: motivosArr.join(' | '), slug, filename: `ps4-${slug}.html`, html, images: dl.images,
-  titulo, url_del_juego: dl.row_url, url_publicada: `${SITE}/ps4-${slug}.html`, fecha: new Date().toISOString().slice(0, 10),
+return [{ json: { qa_ok: qaOk, qa_motivos: motivosArr.join(' | '), slug, filename: `ps4/${slug}/index.html`, html, images: dl.images,
+  titulo, url_del_juego: dl.row_url, url_publicada: `${SITE}/ps4/${slug}`, fecha: new Date().toISOString().slice(0, 10),
   indice: { titulo, slug, plataforma: 'PS4', precio: precioVenta ? precioVenta.toFixed(2) : '', ref: psStore ? psStore.toFixed(2) : '', img: dl.coverRef, genero, fecha: new Date().toISOString().slice(0,10) },
   media: dl.media_debug, datos: { genero, desarrollador, editor, anio, puntaje, fuente_score: ficha.fuente_score, voz: desc.voz }, confianza: ficha.confianza } }];

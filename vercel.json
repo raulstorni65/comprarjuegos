@@ -1,6 +1,10 @@
 {
   "cleanUrls": false,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/ps4-:slug.html", "destination": "/ps4/:slug", "permanent": true },
+    { "source": "/ps4-:slug", "destination": "/ps4/:slug", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/buscar", "destination": "/buscar.html" }
   ]
