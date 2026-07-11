@@ -318,5 +318,15 @@
     "img": "/img/ps4-resident-evil-3-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-11"
+  },
+  {
+    "titulo": "Sonic Racing: CrossWorlds",
+    "slug": "sonic-racing-crossworlds",
+    "plataforma": "PS4",
+    "precio": "50.00",
+    "ref": "69.99",
+    "img": "/img/ps4-sonic-racing-crossworlds-portada.jpg",
+    "genero": "Racing, Adventure",
+    "fecha": "2026-07-11"
   }
 ]
