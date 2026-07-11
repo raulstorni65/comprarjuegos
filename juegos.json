@@ -338,15 +338,5 @@
     "img": "/img/ps4-ea-sports-fc-25-portada.jpg",
     "genero": "Simulation, Sports",
     "fecha": "2026-07-11"
-  },
-  {
-    "titulo": "RESIDENT EVIL 2",
-    "slug": "resident-evil-2",
-    "plataforma": "PS4",
-    "precio": "25.00",
-    "ref": "39.99",
-    "img": "/img/ps4-resident-evil-2-portada.jpg",
-    "genero": "Adventure, Action",
-    "fecha": "2026-07-11"
   }
 ]
