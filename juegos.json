@@ -298,5 +298,15 @@
     "img": "/img/ps4-god-of-war-portada.jpg",
     "genero": "Action",
     "fecha": "2026-07-11"
+  },
+  {
+    "titulo": "HITMAN World of Assassination",
+    "slug": "hitman-world-of-assassination",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "27.99",
+    "img": "/img/ps4-hitman-world-of-assassination-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-11"
   }
 ]
