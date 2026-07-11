@@ -338,5 +338,16 @@
     "img": "/img/ps4-ea-sports-fc-25-portada.jpg",
     "genero": "Simulation, Sports",
     "fecha": "2026-07-11"
+  },
+  {
+    "titulo": "Crash Team Racing Nitro-Fueled",
+    "slug": "crash-team-racing-nitro-fueled",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-crash-team-racing-nitro-fueled-portada.jpg",
+    "genero": "Racing, Family",
+    "fecha": "2026-07-11",
+    "url": "/ps4/crash-team-racing-nitro-fueled"
   }
 ]
