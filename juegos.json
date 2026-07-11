@@ -308,5 +308,15 @@
     "img": "/img/ps4-hitman-world-of-assassination-portada.jpg",
     "genero": "Shooter, Action",
     "fecha": "2026-07-11"
+  },
+  {
+    "titulo": "RESIDENT EVIL 3",
+    "slug": "resident-evil-3",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-resident-evil-3-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-11"
   }
 ]
