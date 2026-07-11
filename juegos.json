@@ -278,5 +278,15 @@
     "img": "/img/ps4-assassin-s-creed-valhalla-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-10"
+  },
+  {
+    "titulo": "Resident Evil Village",
+    "slug": "resident-evil-village",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-resident-evil-village-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-11"
   }
 ]
