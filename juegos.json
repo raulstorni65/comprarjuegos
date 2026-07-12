@@ -349,5 +349,15 @@
     "genero": "Racing, Family",
     "fecha": "2026-07-11",
     "url": "/ps4/crash-team-racing-nitro-fueled"
+  },
+  {
+    "titulo": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
+    "slug": "naruto-shippuden-ultimate-ninja-storm-4",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "14.99",
+    "img": "/img/ps4-naruto-shippuden-ultimate-ninja-storm-4-portada.jpg",
+    "genero": "Action, Fighting",
+    "fecha": "2026-07-12"
   }
 ]
