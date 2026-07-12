@@ -379,5 +379,15 @@
     "img": "/img/ps4-the-last-of-us-remastered-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-12"
+  },
+  {
+    "titulo": "LEGO Star Wars La saga de Skywalker",
+    "slug": "lego-star-wars-la-saga-de-skywalker",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-lego-star-wars-la-saga-de-skywalker-portada.jpg",
+    "genero": "Platformer, Adventure",
+    "fecha": "2026-07-12"
   }
 ]
