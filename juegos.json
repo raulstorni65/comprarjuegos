@@ -389,5 +389,15 @@
     "img": "/img/ps4-lego-star-wars-la-saga-de-skywalker-portada.jpg",
     "genero": "Platformer, Adventure",
     "fecha": "2026-07-12"
+  },
+  {
+    "titulo": "ONE PIECE: PIRATE WARRIORS 4",
+    "slug": "one-piece-pirate-warriors-4",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-one-piece-pirate-warriors-4-portada.jpg",
+    "genero": "Action",
+    "fecha": "2026-07-12"
   }
 ]
