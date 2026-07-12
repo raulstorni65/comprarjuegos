@@ -399,5 +399,15 @@
     "img": "/img/ps4-one-piece-pirate-warriors-4-portada.jpg",
     "genero": "Action",
     "fecha": "2026-07-12"
+  },
+  {
+    "titulo": "NARUTO TO BORUTO: SHINOBI STRIKER",
+    "slug": "naruto-to-boruto-shinobi-striker",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-naruto-to-boruto-shinobi-striker-portada.jpg",
+    "genero": "Action",
+    "fecha": "2026-07-12"
   }
 ]
