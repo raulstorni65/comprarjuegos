@@ -359,5 +359,15 @@
     "img": "/img/ps4-naruto-shippuden-ultimate-ninja-storm-4-portada.jpg",
     "genero": "Action, Fighting",
     "fecha": "2026-07-12"
+  },
+  {
+    "titulo": "Mortal Kombat X",
+    "slug": "mortal-kombat-x",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-mortal-kombat-x-portada.jpg",
+    "genero": "Action, Fighting",
+    "fecha": "2026-07-12"
   }
 ]
