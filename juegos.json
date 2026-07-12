@@ -369,5 +369,15 @@
     "img": "/img/ps4-mortal-kombat-x-portada.jpg",
     "genero": "Action, Fighting",
     "fecha": "2026-07-12"
+  },
+  {
+    "titulo": "The Last of Us Remastered",
+    "slug": "the-last-of-us-remastered",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-the-last-of-us-remastered-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-12"
   }
 ]
