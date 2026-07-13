@@ -439,5 +439,15 @@
     "img": "/img/ps4-marvel-s-spider-man-miles-morales-portada.jpg",
     "genero": "Action",
     "fecha": "2026-07-13"
+  },
+  {
+    "titulo": "Call of Duty: Vanguard",
+    "slug": "call-of-duty-vanguard",
+    "plataforma": "PS4",
+    "precio": "50.00",
+    "ref": "69.99",
+    "img": "/img/ps4-call-of-duty-vanguard-portada.jpg",
+    "genero": "Shooter",
+    "fecha": "2026-07-13"
   }
 ]
