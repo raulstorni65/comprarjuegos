@@ -429,5 +429,15 @@
     "img": "/img/ps4-resident-evil-6-portada.jpg",
     "genero": "Shooter, Action",
     "fecha": "2026-07-13"
+  },
+  {
+    "titulo": "Marvel’s Spider-Man: Miles Morales",
+    "slug": "marvel-s-spider-man-miles-morales",
+    "plataforma": "PS4",
+    "precio": "30.00",
+    "ref": "49.99",
+    "img": "/img/ps4-marvel-s-spider-man-miles-morales-portada.jpg",
+    "genero": "Action",
+    "fecha": "2026-07-13"
   }
 ]
