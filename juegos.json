@@ -449,5 +449,15 @@
     "img": "/img/ps4-call-of-duty-vanguard-portada.jpg",
     "genero": "Shooter",
     "fecha": "2026-07-13"
+  },
+  {
+    "titulo": "Call of Duty: Modern Warfare Remastered",
+    "slug": "call-of-duty-modern-warfare-remastered",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-call-of-duty-modern-warfare-remastered-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-13"
   }
 ]
