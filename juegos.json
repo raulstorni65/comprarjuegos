@@ -409,5 +409,15 @@
     "img": "/img/ps4-naruto-to-boruto-shinobi-striker-portada.jpg",
     "genero": "Action",
     "fecha": "2026-07-12"
+  },
+  {
+    "titulo": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS",
+    "slug": "naruto-x-boruto-ultimate-ninja-storm-connections",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-naruto-x-boruto-ultimate-ninja-storm-connections-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-13"
   }
 ]
