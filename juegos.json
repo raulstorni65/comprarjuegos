@@ -419,5 +419,15 @@
     "img": "/img/ps4-naruto-x-boruto-ultimate-ninja-storm-connections-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-13"
+  },
+  {
+    "titulo": "Resident Evil 6",
+    "slug": "resident-evil-6",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-resident-evil-6-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-13"
   }
 ]
