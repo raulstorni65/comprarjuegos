@@ -469,5 +469,15 @@
     "img": "/img/ps4-red-dead-redemption-portada.jpg",
     "genero": "Shooter, Action",
     "fecha": "2026-07-13"
+  },
+  {
+    "titulo": "RESIDENT EVIL 7 biohazard",
+    "slug": "resident-evil-7-biohazard",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-resident-evil-7-biohazard-portada.jpg",
+    "genero": "Shooter, Adventure",
+    "fecha": "2026-07-13"
   }
 ]
