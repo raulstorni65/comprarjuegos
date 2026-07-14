@@ -479,5 +479,16 @@
     "img": "/img/ps4-resident-evil-7-biohazard-portada.jpg",
     "genero": "Shooter, Adventure",
     "fecha": "2026-07-13"
+  },
+  {
+    "titulo": "BATMAN: ARKHAM KNIGHT",
+    "slug": "batman-arkham-knight",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "23.99",
+    "img": "/img/ps4-batman-arkham-knight-portada.jpg",
+    "genero": "Action",
+    "fecha": "2026-07-14",
+    "url": "/ps4/batman-arkham-knight"
   }
 ]
