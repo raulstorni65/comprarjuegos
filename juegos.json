@@ -510,5 +510,15 @@
     "img": "/img/ps4-persona-3-reload-portada.jpg",
     "genero": "Strategy, Adventure",
     "fecha": "2026-07-14"
+  },
+  {
+    "titulo": "Overcooked 2",
+    "slug": "overcooked-2",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "24.99",
+    "img": "/img/ps4-overcooked-2-portada.jpg",
+    "genero": "Casual, Indie",
+    "fecha": "2026-07-14"
   }
 ]
