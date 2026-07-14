@@ -500,5 +500,15 @@
     "img": "/img/ps4-diablo-ii-resurrected-portada.jpg",
     "genero": "Action, RPG",
     "fecha": "2026-07-14"
+  },
+  {
+    "titulo": "Persona 3 Reload",
+    "slug": "persona-3-reload",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-persona-3-reload-portada.jpg",
+    "genero": "Strategy, Adventure",
+    "fecha": "2026-07-14"
   }
 ]
