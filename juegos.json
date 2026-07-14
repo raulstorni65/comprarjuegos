@@ -520,5 +520,15 @@
     "img": "/img/ps4-overcooked-2-portada.jpg",
     "genero": "Casual, Indie",
     "fecha": "2026-07-14"
+  },
+  {
+    "titulo": "SONIC X SHADOW GENERATIONS",
+    "slug": "sonic-x-shadow-generations",
+    "plataforma": "PS4",
+    "precio": "30.00",
+    "ref": "49.99",
+    "img": "/img/ps4-sonic-x-shadow-generations-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-14"
   }
 ]
