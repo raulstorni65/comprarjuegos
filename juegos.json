@@ -490,5 +490,15 @@
     "genero": "Action",
     "fecha": "2026-07-14",
     "url": "/ps4/batman-arkham-knight"
+  },
+  {
+    "titulo": "Diablo II: Resurrected",
+    "slug": "diablo-ii-resurrected",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-diablo-ii-resurrected-portada.jpg",
+    "genero": "Action, RPG",
+    "fecha": "2026-07-14"
   }
 ]
