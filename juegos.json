@@ -592,5 +592,15 @@
     "img": "/img/ps4-assassin-s-creed-odyssey-portada.jpg",
     "genero": "Action, RPG",
     "fecha": "2026-07-15"
+  },
+  {
+    "titulo": "Assassin's Creed Mirage",
+    "slug": "assassin-s-creed-mirage",
+    "plataforma": "PS4",
+    "precio": "30.00",
+    "ref": "49.99",
+    "img": "/img/ps4-assassin-s-creed-mirage-portada.jpg",
+    "genero": "Action",
+    "fecha": "2026-07-15"
   }
 ]
