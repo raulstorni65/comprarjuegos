@@ -572,5 +572,15 @@
     "img": "/img/ps4-shadow-of-the-tomb-raider-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-15"
+  },
+  {
+    "titulo": "Call of Duty: Black Ops Cold War",
+    "slug": "call-of-duty-black-ops-cold-war",
+    "plataforma": "PS4",
+    "precio": "50.00",
+    "ref": "69.99",
+    "img": "/img/ps4-call-of-duty-black-ops-cold-war-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-15"
   }
 ]
