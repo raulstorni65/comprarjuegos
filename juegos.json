@@ -602,5 +602,15 @@
     "img": "/img/ps4-assassin-s-creed-mirage-portada.jpg",
     "genero": "Action",
     "fecha": "2026-07-15"
+  },
+  {
+    "titulo": "Hollow Knight: Silksong",
+    "slug": "hollow-knight-silksong",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-hollow-knight-silksong-portada.jpg",
+    "genero": "Indie, Platformer",
+    "fecha": "2026-07-15"
   }
 ]
