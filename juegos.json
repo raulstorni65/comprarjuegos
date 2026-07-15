@@ -562,5 +562,15 @@
     "genero": "Action RPG, First-Person Shooter",
     "fecha": "2026-07-15",
     "url": "/ps4/borderlands-3"
+  },
+  {
+    "titulo": "Shadow of the Tomb Raider",
+    "slug": "shadow-of-the-tomb-raider",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "5.99",
+    "img": "/img/ps4-shadow-of-the-tomb-raider-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-15"
   }
 ]
