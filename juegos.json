@@ -541,5 +541,15 @@
     "genero": "Adventure, Action",
     "fecha": "2026-07-14",
     "url": "/ps4/god-of-war-iii-remastered"
+  },
+  {
+    "titulo": "WATCH_DOGS 2",
+    "slug": "watch-dogs-2",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "16.99",
+    "img": "/img/ps4-watch-dogs-2-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-15"
   }
 ]
