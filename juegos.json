@@ -551,5 +551,16 @@
     "img": "/img/ps4-watch-dogs-2-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-15"
+  },
+  {
+    "titulo": "Borderlands 3",
+    "slug": "borderlands-3",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-borderlands-3-portada.jpg",
+    "genero": "Action RPG, First-Person Shooter",
+    "fecha": "2026-07-15",
+    "url": "/ps4/borderlands-3"
   }
 ]
