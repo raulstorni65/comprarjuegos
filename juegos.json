@@ -632,5 +632,15 @@
     "img": "/img/ps4-street-fighter-6-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-16"
+  },
+  {
+    "titulo": "Call of Duty: Black Ops 4",
+    "slug": "call-of-duty-black-ops-4",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.79",
+    "img": "/img/ps4-call-of-duty-black-ops-4-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-16"
   }
 ]
