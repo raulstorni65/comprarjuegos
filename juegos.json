@@ -662,5 +662,15 @@
     "img": "/img/ps4-grand-theft-auto-the-trilogy-the-definitive-edition-portada.jpg",
     "genero": "Shooter, Action",
     "fecha": "2026-07-16"
+  },
+  {
+    "titulo": "Assassin's Creed The Ezio Collection",
+    "slug": "assassin-s-creed-the-ezio-collection",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "11.99",
+    "img": "/img/ps4-assassin-s-creed-the-ezio-collection-portada.jpg",
+    "genero": "Action",
+    "fecha": "2026-07-16"
   }
 ]
