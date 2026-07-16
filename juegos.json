@@ -622,5 +622,15 @@
     "img": "/img/ps4-call-of-duty-ghosts-portada.jpg",
     "genero": "Shooter, Action",
     "fecha": "2026-07-16"
+  },
+  {
+    "titulo": "Street Fighter 6",
+    "slug": "street-fighter-6",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-street-fighter-6-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-16"
   }
 ]
