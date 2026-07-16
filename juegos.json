@@ -612,5 +612,15 @@
     "img": "/img/ps4-hollow-knight-silksong-portada.jpg",
     "genero": "Indie, Platformer",
     "fecha": "2026-07-15"
+  },
+  {
+    "titulo": "Call of Duty Ghosts",
+    "slug": "call-of-duty-ghosts",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.79",
+    "img": "/img/ps4-call-of-duty-ghosts-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-16"
   }
 ]
