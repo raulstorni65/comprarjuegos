@@ -652,5 +652,15 @@
     "img": "/img/ps4-resident-evil-revelations-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-16"
+  },
+  {
+    "titulo": "Grand Theft Auto: The Trilogy – The Definitive Edition",
+    "slug": "grand-theft-auto-the-trilogy-the-definitive-edition",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-grand-theft-auto-the-trilogy-the-definitive-edition-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-16"
   }
 ]
