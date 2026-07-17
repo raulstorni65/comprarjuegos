@@ -712,5 +712,15 @@
     "img": "/img/ps4-crash-bandicoot-n-sane-trilogy-portada.jpg",
     "genero": "Platformer, Action",
     "fecha": "2026-07-17"
+  },
+  {
+    "titulo": "LEGO Superhéroes de Marvel",
+    "slug": "lego-superheroes-de-marvel",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "4.99",
+    "img": "/img/ps4-lego-superheroes-de-marvel-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-17"
   }
 ]
