@@ -682,5 +682,15 @@
     "img": "/img/ps4-mortal-kombat-legacy-kollection-portada.jpg",
     "genero": "Action",
     "fecha": "2026-07-17"
+  },
+  {
+    "titulo": "Call of Duty: Infinite Warfare",
+    "slug": "call-of-duty-infinite-warfare",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.79",
+    "img": "/img/ps4-call-of-duty-infinite-warfare-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-17"
   }
 ]
