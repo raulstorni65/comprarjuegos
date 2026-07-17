@@ -672,5 +672,15 @@
     "img": "/img/ps4-assassin-s-creed-the-ezio-collection-portada.jpg",
     "genero": "Action",
     "fecha": "2026-07-16"
+  },
+  {
+    "titulo": "Mortal Kombat: Legacy Kollection",
+    "slug": "mortal-kombat-legacy-kollection",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "37.49",
+    "img": "/img/ps4-mortal-kombat-legacy-kollection-portada.jpg",
+    "genero": "Action",
+    "fecha": "2026-07-17"
   }
 ]
