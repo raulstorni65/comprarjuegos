@@ -692,5 +692,15 @@
     "img": "/img/ps4-call-of-duty-infinite-warfare-portada.jpg",
     "genero": "Shooter, Action",
     "fecha": "2026-07-17"
+  },
+  {
+    "titulo": "Tony Hawk's Pro Skater 3 + 4",
+    "slug": "tony-hawk-s-pro-skater-3-4",
+    "plataforma": "PS4",
+    "precio": "30.00",
+    "ref": "49.99",
+    "img": "/img/ps4-tony-hawk-s-pro-skater-3-4-portada.jpg",
+    "genero": "Simulation, Sports",
+    "fecha": "2026-07-17"
   }
 ]
