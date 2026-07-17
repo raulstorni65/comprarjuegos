@@ -702,5 +702,15 @@
     "img": "/img/ps4-tony-hawk-s-pro-skater-3-4-portada.jpg",
     "genero": "Simulation, Sports",
     "fecha": "2026-07-17"
+  },
+  {
+    "titulo": "Crash Bandicoot N. Sane Trilogy",
+    "slug": "crash-bandicoot-n-sane-trilogy",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-crash-bandicoot-n-sane-trilogy-portada.jpg",
+    "genero": "Platformer, Action",
+    "fecha": "2026-07-17"
   }
 ]
