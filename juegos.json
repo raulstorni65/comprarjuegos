@@ -722,5 +722,15 @@
     "img": "/img/ps4-lego-superheroes-de-marvel-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-17"
+  },
+  {
+    "titulo": "DARK SOULS III",
+    "slug": "dark-souls-iii",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-dark-souls-iii-portada.jpg",
+    "genero": "Action, RPG",
+    "fecha": "2026-07-17"
   }
 ]
