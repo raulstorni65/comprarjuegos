@@ -732,5 +732,15 @@
     "img": "/img/ps4-dark-souls-iii-portada.jpg",
     "genero": "Action, RPG",
     "fecha": "2026-07-17"
+  },
+  {
+    "titulo": "Resident Evil 0",
+    "slug": "resident-evil-0",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-resident-evil-0-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-18"
   }
 ]
