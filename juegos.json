@@ -785,5 +785,16 @@
     "genero": "Adventure, Action",
     "fecha": "2026-07-18",
     "url": "/ps4/tomb-raider-definitive-edition"
+  },
+  {
+    "titulo": "Call of Duty: Advanced Warfare",
+    "slug": "call-of-duty-advanced-warfare",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.79",
+    "img": "/img/ps4-call-of-duty-advanced-warfare-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-18",
+    "url": "/ps4/call-of-duty-advanced-warfare"
   }
 ]
