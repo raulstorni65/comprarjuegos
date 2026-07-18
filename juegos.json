@@ -752,5 +752,16 @@
     "img": "/img/ps4-need-for-speed-heat-portada.jpg",
     "genero": "Racing, Arcade",
     "fecha": "2026-07-18"
+  },
+  {
+    "titulo": "Street Fighter V",
+    "slug": "street-fighter-v",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-street-fighter-v-portada.jpg",
+    "genero": "Action, Fighting",
+    "fecha": "2026-07-18",
+    "url": "/ps4/street-fighter-v"
   }
 ]
