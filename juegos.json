@@ -742,5 +742,15 @@
     "img": "/img/ps4-resident-evil-0-portada.jpg",
     "genero": "Adventure, Action",
     "fecha": "2026-07-18"
+  },
+  {
+    "titulo": "Need for Speed Heat",
+    "slug": "need-for-speed-heat",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-need-for-speed-heat-portada.jpg",
+    "genero": "Racing, Arcade",
+    "fecha": "2026-07-18"
   }
 ]
