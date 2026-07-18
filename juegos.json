@@ -763,5 +763,16 @@
     "genero": "Action, Fighting",
     "fecha": "2026-07-18",
     "url": "/ps4/street-fighter-v"
+  },
+  {
+    "titulo": "Minecraft Dungeons",
+    "slug": "minecraft-dungeons",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-minecraft-dungeons-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-18",
+    "url": "/ps4/minecraft-dungeons"
   }
 ]
