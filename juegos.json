@@ -774,5 +774,16 @@
     "genero": "Adventure, Action",
     "fecha": "2026-07-18",
     "url": "/ps4/minecraft-dungeons"
+  },
+  {
+    "titulo": "Tomb Raider: Definitive Edition",
+    "slug": "tomb-raider-definitive-edition",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "2.99",
+    "img": "/img/ps4-tomb-raider-definitive-edition-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-18",
+    "url": "/ps4/tomb-raider-definitive-edition"
   }
 ]
