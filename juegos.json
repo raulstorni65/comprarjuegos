@@ -796,5 +796,16 @@
     "genero": "Shooter, Action",
     "fecha": "2026-07-18",
     "url": "/ps4/call-of-duty-advanced-warfare"
+  },
+  {
+    "titulo": "Crash Team Rumble",
+    "slug": "crash-team-rumble",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "29.99",
+    "img": "/img/ps4-crash-team-rumble-portada.jpg",
+    "genero": "Massively Multiplayer",
+    "fecha": "2026-07-18",
+    "url": "/ps4/crash-team-rumble"
   }
 ]
