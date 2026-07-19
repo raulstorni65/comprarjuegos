@@ -851,5 +851,16 @@
     "genero": "Adventure, Action",
     "fecha": "2026-07-19",
     "url": "/ps4/monster-hunter-world"
+  },
+  {
+    "titulo": "DARK SOULS: REMASTERED",
+    "slug": "dark-souls-remastered",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-dark-souls-remastered-portada.jpg",
+    "genero": "Action, RPG",
+    "fecha": "2026-07-19",
+    "url": "/ps4/dark-souls-remastered"
   }
 ]
