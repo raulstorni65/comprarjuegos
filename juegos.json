@@ -840,5 +840,16 @@
     "genero": "Arcade, Action",
     "fecha": "2026-07-19",
     "url": "/ps4/dragon-ball-xenoverse"
+  },
+  {
+    "titulo": "Monster Hunter: World",
+    "slug": "monster-hunter-world",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-monster-hunter-world-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-19",
+    "url": "/ps4/monster-hunter-world"
   }
 ]
