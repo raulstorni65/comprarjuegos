@@ -829,5 +829,16 @@
     "genero": "Adventure, Action",
     "fecha": "2026-07-19",
     "url": "/ps4/mafia-iii-definitive-edition"
+  },
+  {
+    "titulo": "DRAGON BALL XENOVERSE",
+    "slug": "dragon-ball-xenoverse",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "4.99",
+    "img": "/img/ps4-dragon-ball-xenoverse-portada.jpg",
+    "genero": "Arcade, Action",
+    "fecha": "2026-07-19",
+    "url": "/ps4/dragon-ball-xenoverse"
   }
 ]
