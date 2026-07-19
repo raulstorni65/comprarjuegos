@@ -862,5 +862,16 @@
     "genero": "Action, RPG",
     "fecha": "2026-07-19",
     "url": "/ps4/dark-souls-remastered"
+  },
+  {
+    "titulo": "Battlefield 1",
+    "slug": "battlefield-1",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "https://www.comprarjuegos.com/og-cover.png",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-19",
+    "url": "/ps4/battlefield-1"
   }
 ]
