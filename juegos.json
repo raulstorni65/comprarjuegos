@@ -818,5 +818,16 @@
     "genero": "Shooter, Action",
     "fecha": "2026-07-19",
     "url": "/ps4/resident-evil-5"
+  },
+  {
+    "titulo": "Mafia III: Definitive Edition",
+    "slug": "mafia-iii-definitive-edition",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "5.99",
+    "img": "/img/ps4-mafia-iii-definitive-edition-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-19",
+    "url": "/ps4/mafia-iii-definitive-edition"
   }
 ]
