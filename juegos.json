@@ -807,5 +807,16 @@
     "genero": "Massively Multiplayer",
     "fecha": "2026-07-18",
     "url": "/ps4/crash-team-rumble"
+  },
+  {
+    "titulo": "Resident Evil 5",
+    "slug": "resident-evil-5",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-resident-evil-5-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-19",
+    "url": "/ps4/resident-evil-5"
   }
 ]
