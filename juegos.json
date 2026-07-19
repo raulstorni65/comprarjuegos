@@ -873,5 +873,16 @@
     "genero": "Shooter, Action",
     "fecha": "2026-07-19",
     "url": "/ps4/battlefield-1"
+  },
+  {
+    "titulo": "Rise of the Tomb Raider",
+    "slug": "rise-of-the-tomb-raider",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "4.49",
+    "img": "/img/ps4-rise-of-the-tomb-raider-portada.jpg",
+    "genero": "Action",
+    "fecha": "2026-07-19",
+    "url": "/ps4/rise-of-the-tomb-raider"
   }
 ]
