@@ -939,5 +939,16 @@
     "genero": "Adventure, Action",
     "fecha": "2026-07-20",
     "url": "/ps4/lego-marvel-super-heroes-2"
+  },
+  {
+    "titulo": "Overcooked! All You Can Eat",
+    "slug": "overcooked-all-you-can-eat",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "11.99",
+    "img": "/img/ps4-overcooked-all-you-can-eat-portada.jpg",
+    "genero": "Action, Casual",
+    "fecha": "2026-07-20",
+    "url": "/ps4/overcooked-all-you-can-eat"
   }
 ]
