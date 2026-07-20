@@ -917,5 +917,16 @@
     "genero": "Action",
     "fecha": "2026-07-20",
     "url": "/ps4/assassin-s-creed-unity"
+  },
+  {
+    "titulo": "Terraria – PlayStation4 Edition",
+    "slug": "terraria-playstation4-edition",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "9.99",
+    "img": "/img/ps4-terraria-playstation4-edition-portada.jpg",
+    "genero": "Platformer, Indie",
+    "fecha": "2026-07-20",
+    "url": "/ps4/terraria-playstation4-edition"
   }
 ]
