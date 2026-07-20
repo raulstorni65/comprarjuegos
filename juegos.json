@@ -928,5 +928,16 @@
     "genero": "Platformer, Indie",
     "fecha": "2026-07-20",
     "url": "/ps4/terraria-playstation4-edition"
+  },
+  {
+    "titulo": "LEGO MARVEL Super Heroes 2",
+    "slug": "lego-marvel-super-heroes-2",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "4.99",
+    "img": "/img/ps4-lego-marvel-super-heroes-2-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-20",
+    "url": "/ps4/lego-marvel-super-heroes-2"
   }
 ]
