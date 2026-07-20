@@ -895,5 +895,16 @@
     "genero": "Simulation, Sports",
     "fecha": "2026-07-20",
     "url": "/ps4/nba-2k25"
+  },
+  {
+    "titulo": "Far Cry 5",
+    "slug": "far-cry-5",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-far-cry-5-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-20",
+    "url": "/ps4/far-cry-5"
   }
 ]
