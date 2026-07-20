@@ -906,5 +906,16 @@
     "genero": "Shooter, Action",
     "fecha": "2026-07-20",
     "url": "/ps4/far-cry-5"
+  },
+  {
+    "titulo": "Assassin's Creed Unity",
+    "slug": "assassin-s-creed-unity",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "10.79",
+    "img": "/img/ps4-assassin-s-creed-unity-portada.jpg",
+    "genero": "Action",
+    "fecha": "2026-07-20",
+    "url": "/ps4/assassin-s-creed-unity"
   }
 ]
