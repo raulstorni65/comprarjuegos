@@ -961,5 +961,16 @@
     "genero": "Adventure, Action",
     "fecha": "2026-07-21",
     "url": "/ps4/trilogia-mafia"
+  },
+  {
+    "titulo": "Team Sonic Racing",
+    "slug": "team-sonic-racing",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "8.99",
+    "img": "/img/ps4-team-sonic-racing-portada.jpg",
+    "genero": "Racing",
+    "fecha": "2026-07-21",
+    "url": "/ps4/team-sonic-racing"
   }
 ]
