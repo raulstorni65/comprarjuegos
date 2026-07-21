@@ -1005,5 +1005,16 @@
     "genero": "Action, RPG",
     "fecha": "2026-07-21",
     "url": "/ps4/assassin-s-creed-origins"
+  },
+  {
+    "titulo": "Crash Bandicoot 4: It’s About Time",
+    "slug": "crash-bandicoot-4-it-s-about-time",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-crash-bandicoot-4-it-s-about-time-portada.jpg",
+    "genero": "Platformer, Action",
+    "fecha": "2026-07-21",
+    "url": "/ps4/crash-bandicoot-4-it-s-about-time"
   }
 ]
