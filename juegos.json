@@ -994,5 +994,16 @@
     "genero": "Platformer, Action",
     "fecha": "2026-07-21",
     "url": "/ps4/sonic-superstars"
+  },
+  {
+    "titulo": "Assassin's Creed Origins",
+    "slug": "assassin-s-creed-origins",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-assassin-s-creed-origins-portada.jpg",
+    "genero": "Action, RPG",
+    "fecha": "2026-07-21",
+    "url": "/ps4/assassin-s-creed-origins"
   }
 ]
