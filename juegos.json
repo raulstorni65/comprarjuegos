@@ -950,5 +950,16 @@
     "genero": "Action, Casual",
     "fecha": "2026-07-20",
     "url": "/ps4/overcooked-all-you-can-eat"
+  },
+  {
+    "titulo": "Trilogía Mafia",
+    "slug": "trilogia-mafia",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-trilogia-mafia-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-21",
+    "url": "/ps4/trilogia-mafia"
   }
 ]
