@@ -972,5 +972,16 @@
     "genero": "Racing",
     "fecha": "2026-07-21",
     "url": "/ps4/team-sonic-racing"
+  },
+  {
+    "titulo": "Battlefield 2042",
+    "slug": "battlefield-2042",
+    "plataforma": "PS4",
+    "precio": "50.00",
+    "ref": "69.99",
+    "img": "/img/ps4-battlefield-2042-portada.jpg",
+    "genero": "Casual, Shooter",
+    "fecha": "2026-07-21",
+    "url": "/ps4/battlefield-2042"
   }
 ]
