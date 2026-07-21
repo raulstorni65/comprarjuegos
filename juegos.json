@@ -983,5 +983,16 @@
     "genero": "Casual, Shooter",
     "fecha": "2026-07-21",
     "url": "/ps4/battlefield-2042"
+  },
+  {
+    "titulo": "Sonic Superstars",
+    "slug": "sonic-superstars",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-sonic-superstars-portada.jpg",
+    "genero": "Platformer, Action",
+    "fecha": "2026-07-21",
+    "url": "/ps4/sonic-superstars"
   }
 ]
