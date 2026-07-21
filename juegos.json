@@ -1016,5 +1016,16 @@
     "genero": "Platformer, Action",
     "fecha": "2026-07-21",
     "url": "/ps4/crash-bandicoot-4-it-s-about-time"
+  },
+  {
+    "titulo": "Call of Duty: Modern Warfare 2 Campaign Remastered",
+    "slug": "call-of-duty-modern-warfare-2-campaign-remastered",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "9.99",
+    "img": "/img/ps4-call-of-duty-modern-warfare-2-campaign-remastered-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-21",
+    "url": "/ps4/call-of-duty-modern-warfare-2-campaign-remastered"
   }
 ]
