@@ -1093,5 +1093,16 @@
     "genero": "Adventure, Action",
     "fecha": "2026-07-22",
     "url": "/ps4/tomb-raider-i-iii-remastered-starring-lara-croft"
+  },
+  {
+    "titulo": "Horizon Chase Turbo",
+    "slug": "horizon-chase-turbo",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-horizon-chase-turbo-portada.jpg",
+    "genero": "Racing, Action",
+    "fecha": "2026-07-22",
+    "url": "/ps4/horizon-chase-turbo"
   }
 ]
