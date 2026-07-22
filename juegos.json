@@ -1071,5 +1071,16 @@
     "genero": "Action, RPG",
     "fecha": "2026-07-22",
     "url": "/ps4/sekiro-shadows-die-twice"
+  },
+  {
+    "titulo": "The Witcher 3: Wild Hunt",
+    "slug": "the-witcher-3-wild-hunt",
+    "plataforma": "PS4",
+    "precio": "30.00",
+    "ref": "49.99",
+    "img": "/img/ps4-the-witcher-3-wild-hunt-portada.jpg",
+    "genero": "Action, RPG",
+    "fecha": "2026-07-22",
+    "url": "/ps4/the-witcher-3-wild-hunt"
   }
 ]
