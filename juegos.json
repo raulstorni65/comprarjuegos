@@ -1038,5 +1038,16 @@
     "genero": "Shooter, Adventure",
     "fecha": "2026-07-21",
     "url": "/ps4/watch-dogs-legion"
+  },
+  {
+    "titulo": "Diablo III: Eternal Collection",
+    "slug": "diablo-iii-eternal-collection",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-diablo-iii-eternal-collection-portada.jpg",
+    "genero": "Action",
+    "fecha": "2026-07-22",
+    "url": "/ps4/diablo-iii-eternal-collection"
   }
 ]
