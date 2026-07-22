@@ -1060,5 +1060,16 @@
     "genero": "Racing, Arcade",
     "fecha": "2026-07-22",
     "url": "/ps4/the-crew-motorfest"
+  },
+  {
+    "titulo": "Sekiro: Shadows Die Twice",
+    "slug": "sekiro-shadows-die-twice",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-sekiro-shadows-die-twice-portada.jpg",
+    "genero": "Action, RPG",
+    "fecha": "2026-07-22",
+    "url": "/ps4/sekiro-shadows-die-twice"
   }
 ]
