@@ -1082,5 +1082,16 @@
     "genero": "Action, RPG",
     "fecha": "2026-07-22",
     "url": "/ps4/the-witcher-3-wild-hunt"
+  },
+  {
+    "titulo": "Tomb Raider I-III Remastered Starring Lara Croft",
+    "slug": "tomb-raider-i-iii-remastered-starring-lara-croft",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "29.99",
+    "img": "/img/ps4-tomb-raider-i-iii-remastered-starring-lara-croft-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-22",
+    "url": "/ps4/tomb-raider-i-iii-remastered-starring-lara-croft"
   }
 ]
