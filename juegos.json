@@ -1049,5 +1049,16 @@
     "genero": "Action",
     "fecha": "2026-07-22",
     "url": "/ps4/diablo-iii-eternal-collection"
+  },
+  {
+    "titulo": "The Crew Motorfest",
+    "slug": "the-crew-motorfest",
+    "plataforma": "PS4",
+    "precio": "50.00",
+    "ref": "69.99",
+    "img": "/img/ps4-the-crew-motorfest-portada.jpg",
+    "genero": "Racing, Arcade",
+    "fecha": "2026-07-22",
+    "url": "/ps4/the-crew-motorfest"
   }
 ]
