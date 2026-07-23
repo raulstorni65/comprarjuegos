@@ -1104,5 +1104,16 @@
     "genero": "Racing, Action",
     "fecha": "2026-07-22",
     "url": "/ps4/horizon-chase-turbo"
+  },
+  {
+    "titulo": "The Forest",
+    "slug": "the-forest",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "5.99",
+    "img": "/img/ps4-the-forest-portada.jpg",
+    "genero": "Indie, Adventure",
+    "fecha": "2026-07-23",
+    "url": "/ps4/the-forest"
   }
 ]
