@@ -1115,5 +1115,16 @@
     "genero": "Indie, Adventure",
     "fecha": "2026-07-23",
     "url": "/ps4/the-forest"
+  },
+  {
+    "titulo": "Mafia II: Edición Definitiva",
+    "slug": "mafia-ii-edicion-definitiva",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "5.99",
+    "img": "/img/ps4-mafia-ii-edicion-definitiva-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-23",
+    "url": "/ps4/mafia-ii-edicion-definitiva"
   }
 ]
