@@ -1159,5 +1159,16 @@
     "genero": "Action, RPG",
     "fecha": "2026-07-23",
     "url": "/ps4/fallout-4"
+  },
+  {
+    "titulo": "MX vs ATV Legends",
+    "slug": "mx-vs-atv-legends",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "9.99",
+    "img": "/img/ps4-mx-vs-atv-legends-portada.jpg",
+    "genero": "Racing, Sports",
+    "fecha": "2026-07-23",
+    "url": "/ps4/mx-vs-atv-legends"
   }
 ]
