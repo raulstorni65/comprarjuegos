@@ -1148,5 +1148,16 @@
     "genero": "Shooter, Action",
     "fecha": "2026-07-23",
     "url": "/ps4/resident-evil-4-2005"
+  },
+  {
+    "titulo": "Fallout 4",
+    "slug": "fallout-4",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "7.99",
+    "img": "/img/ps4-fallout-4-portada.jpg",
+    "genero": "Action, RPG",
+    "fecha": "2026-07-23",
+    "url": "/ps4/fallout-4"
   }
 ]
