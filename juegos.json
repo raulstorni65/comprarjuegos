@@ -1137,5 +1137,16 @@
     "genero": "Shooter, Action",
     "fecha": "2026-07-23",
     "url": "/ps4/mafia-edicion-definitiva"
+  },
+  {
+    "titulo": "resident evil 4 (2005)",
+    "slug": "resident-evil-4-2005",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-resident-evil-4-2005-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-23",
+    "url": "/ps4/resident-evil-4-2005"
   }
 ]
