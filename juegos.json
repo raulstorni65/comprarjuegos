@@ -1126,5 +1126,16 @@
     "genero": "Adventure, Action",
     "fecha": "2026-07-23",
     "url": "/ps4/mafia-ii-edicion-definitiva"
+  },
+  {
+    "titulo": "Mafia: Edición Definitiva",
+    "slug": "mafia-edicion-definitiva",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-mafia-edicion-definitiva-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-23",
+    "url": "/ps4/mafia-edicion-definitiva"
   }
 ]
