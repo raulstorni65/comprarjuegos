@@ -1225,5 +1225,16 @@
     "genero": "Action",
     "fecha": "2026-07-24",
     "url": "/ps4/assassin-s-creed-syndicate"
+  },
+  {
+    "titulo": "Need for Speed",
+    "slug": "need-for-speed",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "https://www.comprarjuegos.com/og-cover.png",
+    "genero": "Racing, Arcade",
+    "fecha": "2026-07-24",
+    "url": "/ps4/need-for-speed"
   }
 ]
