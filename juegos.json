@@ -1192,5 +1192,16 @@
     "genero": "Shooter, Adventure",
     "fecha": "2026-07-24",
     "url": "/ps4/sniper-elite-resistance"
+  },
+  {
+    "titulo": "LEGO MARVEL's Avengers",
+    "slug": "lego-marvel-s-avengers",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-lego-marvel-s-avengers-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-24",
+    "url": "/ps4/lego-marvel-s-avengers"
   }
 ]
