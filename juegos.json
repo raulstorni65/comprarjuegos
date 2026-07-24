@@ -1181,5 +1181,16 @@
     "genero": "Strategy, Arcade",
     "fecha": "2026-07-24",
     "url": "/ps4/plants-vs-zombies-gw2"
+  },
+  {
+    "titulo": "Sniper Elite: Resistance",
+    "slug": "sniper-elite-resistance",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "14.99",
+    "img": "/img/ps4-sniper-elite-resistance-portada.jpg",
+    "genero": "Shooter, Adventure",
+    "fecha": "2026-07-24",
+    "url": "/ps4/sniper-elite-resistance"
   }
 ]
