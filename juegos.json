@@ -1214,5 +1214,16 @@
     "genero": "Racing",
     "fecha": "2026-07-24",
     "url": "/ps4/snowrunner"
+  },
+  {
+    "titulo": "Assassin's Creed Syndicate",
+    "slug": "assassin-s-creed-syndicate",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "8.99",
+    "img": "/img/ps4-assassin-s-creed-syndicate-portada.jpg",
+    "genero": "Action",
+    "fecha": "2026-07-24",
+    "url": "/ps4/assassin-s-creed-syndicate"
   }
 ]
