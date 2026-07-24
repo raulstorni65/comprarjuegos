@@ -1170,5 +1170,16 @@
     "genero": "Racing, Sports",
     "fecha": "2026-07-23",
     "url": "/ps4/mx-vs-atv-legends"
+  },
+  {
+    "titulo": "Plants vs Zombies GW2",
+    "slug": "plants-vs-zombies-gw2",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-plants-vs-zombies-gw2-portada.jpg",
+    "genero": "Strategy, Arcade",
+    "fecha": "2026-07-24",
+    "url": "/ps4/plants-vs-zombies-gw2"
   }
 ]
