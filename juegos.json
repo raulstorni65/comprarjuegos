@@ -1302,5 +1302,16 @@
     "genero": "Indie, Strategy",
     "fecha": "2026-07-25",
     "url": "/ps4/cult-of-the-lamb"
+  },
+  {
+    "titulo": "Need for Speed Rivals",
+    "slug": "need-for-speed-rivals",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-need-for-speed-rivals-portada.jpg",
+    "genero": "Racing, Arcade",
+    "fecha": "2026-07-25",
+    "url": "/ps4/need-for-speed-rivals"
   }
 ]
