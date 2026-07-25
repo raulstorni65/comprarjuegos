@@ -1269,5 +1269,16 @@
     "genero": "Strategy, Simulation",
     "fecha": "2026-07-25",
     "url": "/ps4/jurassic-world-evolution-2"
+  },
+  {
+    "titulo": "Assetto Corsa Competizione",
+    "slug": "assetto-corsa-competizione",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "9.99",
+    "img": "/img/ps4-assetto-corsa-competizione-portada.jpg",
+    "genero": "Racing, Simulation",
+    "fecha": "2026-07-25",
+    "url": "/ps4/assetto-corsa-competizione"
   }
 ]
