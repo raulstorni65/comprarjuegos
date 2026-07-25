@@ -1258,5 +1258,16 @@
     "genero": "Action, Fighting",
     "fecha": "2026-07-25",
     "url": "/ps4/naruto-shippuden-ultimate-ninja-storm-trilogy"
+  },
+  {
+    "titulo": "Jurassic World Evolution 2",
+    "slug": "jurassic-world-evolution-2",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "23.99",
+    "img": "/img/ps4-jurassic-world-evolution-2-portada.jpg",
+    "genero": "Strategy, Simulation",
+    "fecha": "2026-07-25",
+    "url": "/ps4/jurassic-world-evolution-2"
   }
 ]
