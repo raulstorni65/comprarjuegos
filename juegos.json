@@ -1247,5 +1247,16 @@
     "genero": "Action, RPG",
     "fecha": "2026-07-24",
     "url": "/ps4/one-piece-odyssey-ps4-ps5"
+  },
+  {
+    "titulo": "NARUTO SHIPPUDEN: Ultimate Ninja STORM TRILOGY",
+    "slug": "naruto-shippuden-ultimate-ninja-storm-trilogy",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-naruto-shippuden-ultimate-ninja-storm-trilogy-portada.jpg",
+    "genero": "Action, Fighting",
+    "fecha": "2026-07-25",
+    "url": "/ps4/naruto-shippuden-ultimate-ninja-storm-trilogy"
   }
 ]
