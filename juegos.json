@@ -1280,5 +1280,16 @@
     "genero": "Racing, Simulation",
     "fecha": "2026-07-25",
     "url": "/ps4/assetto-corsa-competizione"
+  },
+  {
+    "titulo": "Borderlands: Una Colección Muy Guapa",
+    "slug": "borderlands-una-coleccion-muy-guapa",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "9.99",
+    "img": "/img/ps4-borderlands-una-coleccion-muy-guapa-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-25",
+    "url": "/ps4/borderlands-una-coleccion-muy-guapa"
   }
 ]
