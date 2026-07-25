@@ -1236,5 +1236,16 @@
     "genero": "Racing, Arcade",
     "fecha": "2026-07-24",
     "url": "/ps4/need-for-speed"
+  },
+  {
+    "titulo": "ONE PIECE ODYSSEY PS4 & PS5",
+    "slug": "one-piece-odyssey-ps4-ps5",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "14.79",
+    "img": "/img/ps4-one-piece-odyssey-ps4-ps5-portada.jpg",
+    "genero": "Action, RPG",
+    "fecha": "2026-07-24",
+    "url": "/ps4/one-piece-odyssey-ps4-ps5"
   }
 ]
