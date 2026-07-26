@@ -1368,5 +1368,16 @@
     "genero": "Casual, Adventure",
     "fecha": "2026-07-26",
     "url": "/ps4/goat-simulator-3"
+  },
+  {
+    "titulo": "ARK: Survival Evolved",
+    "slug": "ark-survival-evolved",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "14.99",
+    "img": "/img/ps4-ark-survival-evolved-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-26",
+    "url": "/ps4/ark-survival-evolved"
   }
 ]
