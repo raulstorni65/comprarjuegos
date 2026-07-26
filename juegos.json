@@ -1379,5 +1379,16 @@
     "genero": "Adventure, Action",
     "fecha": "2026-07-26",
     "url": "/ps4/ark-survival-evolved"
+  },
+  {
+    "titulo": "BLEACH Rebirth of Souls",
+    "slug": "bleach-rebirth-of-souls",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-bleach-rebirth-of-souls-portada.jpg",
+    "genero": "Action",
+    "fecha": "2026-07-26",
+    "url": "/ps4/bleach-rebirth-of-souls"
   }
 ]
