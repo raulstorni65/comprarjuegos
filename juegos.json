@@ -1335,5 +1335,16 @@
     "genero": "Massively Multiplayer, RPG",
     "fecha": "2026-07-26",
     "url": "/ps4/the-elder-scrolls-online"
+  },
+  {
+    "titulo": "Farming Simulator 22",
+    "slug": "farming-simulator-22",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-farming-simulator-22-portada.jpg",
+    "genero": "Simulation",
+    "fecha": "2026-07-26",
+    "url": "/ps4/farming-simulator-22"
   }
 ]
