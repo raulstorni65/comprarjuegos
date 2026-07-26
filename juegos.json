@@ -1313,5 +1313,16 @@
     "genero": "Racing, Arcade",
     "fecha": "2026-07-25",
     "url": "/ps4/need-for-speed-rivals"
+  },
+  {
+    "titulo": "Sonic Origins",
+    "slug": "sonic-origins",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "29.99",
+    "img": "/img/ps4-sonic-origins-portada.jpg",
+    "genero": "Casual, Platformer",
+    "fecha": "2026-07-26",
+    "url": "/ps4/sonic-origins"
   }
 ]
