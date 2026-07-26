@@ -1346,5 +1346,16 @@
     "genero": "Simulation",
     "fecha": "2026-07-26",
     "url": "/ps4/farming-simulator-22"
+  },
+  {
+    "titulo": "The Crew 2",
+    "slug": "the-crew-2",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "29.99",
+    "img": "/img/ps4-the-crew-2-portada.jpg",
+    "genero": "Racing, Massively Multiplayer",
+    "fecha": "2026-07-26",
+    "url": "/ps4/the-crew-2"
   }
 ]
