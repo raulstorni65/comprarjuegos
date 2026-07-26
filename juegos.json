@@ -1357,5 +1357,16 @@
     "genero": "Racing, Massively Multiplayer",
     "fecha": "2026-07-26",
     "url": "/ps4/the-crew-2"
+  },
+  {
+    "titulo": "Goat Simulator 3",
+    "slug": "goat-simulator-3",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "29.99",
+    "img": "/img/ps4-goat-simulator-3-portada.jpg",
+    "genero": "Casual, Adventure",
+    "fecha": "2026-07-26",
+    "url": "/ps4/goat-simulator-3"
   }
 ]
