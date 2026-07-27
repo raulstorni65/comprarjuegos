@@ -1401,5 +1401,16 @@
     "genero": "Adventure, Action",
     "fecha": "2026-07-27",
     "url": "/ps4/watch-dogs"
+  },
+  {
+    "titulo": "Little Nightmares II",
+    "slug": "little-nightmares-ii",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "29.99",
+    "img": "/img/ps4-little-nightmares-ii-portada.jpg",
+    "genero": "Platformer, Adventure",
+    "fecha": "2026-07-27",
+    "url": "/ps4/little-nightmares-ii"
   }
 ]
