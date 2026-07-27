@@ -1390,5 +1390,16 @@
     "genero": "Action",
     "fecha": "2026-07-26",
     "url": "/ps4/bleach-rebirth-of-souls"
+  },
+  {
+    "titulo": "WATCH_DOGS",
+    "slug": "watch-dogs",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "4.99",
+    "img": "/img/ps4-watch-dogs-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-27",
+    "url": "/ps4/watch-dogs"
   }
 ]
