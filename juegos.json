@@ -1412,5 +1412,16 @@
     "genero": "Platformer, Adventure",
     "fecha": "2026-07-27",
     "url": "/ps4/little-nightmares-ii"
+  },
+  {
+    "titulo": "Five Nights at Freddy's: Security Breach",
+    "slug": "five-nights-at-freddy-s-security-breach",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-five-nights-at-freddy-s-security-breach-portada.jpg",
+    "genero": "Indie, Adventure",
+    "fecha": "2026-07-27",
+    "url": "/ps4/five-nights-at-freddy-s-security-breach"
   }
 ]
