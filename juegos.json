@@ -1423,5 +1423,16 @@
     "genero": "Indie, Adventure",
     "fecha": "2026-07-27",
     "url": "/ps4/five-nights-at-freddy-s-security-breach"
+  },
+  {
+    "titulo": "Cyberpunk 2077",
+    "slug": "cyberpunk-2077",
+    "plataforma": "PS4",
+    "precio": "30.00",
+    "ref": "49.99",
+    "img": "/img/ps4-cyberpunk-2077-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-27",
+    "url": "/ps4/cyberpunk-2077"
   }
 ]
