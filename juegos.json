@@ -1434,5 +1434,16 @@
     "genero": "Shooter, Action",
     "fecha": "2026-07-27",
     "url": "/ps4/cyberpunk-2077"
+  },
+  {
+    "titulo": "SNIPER GHOST WARRIOR CONTRACTS 2",
+    "slug": "sniper-ghost-warrior-contracts-2",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-sniper-ghost-warrior-contracts-2-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-27",
+    "url": "/ps4/sniper-ghost-warrior-contracts-2"
   }
 ]
