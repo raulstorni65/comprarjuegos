@@ -1445,5 +1445,16 @@
     "genero": "Shooter, Action",
     "fecha": "2026-07-27",
     "url": "/ps4/sniper-ghost-warrior-contracts-2"
+  },
+  {
+    "titulo": "Sonic Frontiers PS4 & PS5",
+    "slug": "sonic-frontiers-ps4-ps5",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-sonic-frontiers-ps4-ps5-portada.jpg",
+    "genero": "Platformer, Adventure",
+    "fecha": "2026-07-28",
+    "url": "/ps4/sonic-frontiers-ps4-ps5"
   }
 ]
