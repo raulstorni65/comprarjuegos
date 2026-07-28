@@ -1522,5 +1522,16 @@
     "genero": "Shooter, Action",
     "fecha": "2026-07-28",
     "url": "/ps4/doom-eternal"
+  },
+  {
+    "titulo": "Mount & Blade II: Bannerlord",
+    "slug": "mount-blade-ii-bannerlord",
+    "plataforma": "PS4",
+    "precio": "30.00",
+    "ref": "49.99",
+    "img": "/img/ps4-mount-blade-ii-bannerlord-portada.jpg",
+    "genero": "Strategy, Action",
+    "fecha": "2026-07-28",
+    "url": "/ps4/mount-blade-ii-bannerlord"
   }
 ]
