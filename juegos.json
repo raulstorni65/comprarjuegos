@@ -1500,5 +1500,16 @@
     "genero": "Shooter, Adventure",
     "fecha": "2026-07-28",
     "url": "/ps4/sniper-elite-5"
+  },
+  {
+    "titulo": "Guardianes de la Noche -Kimetsu No Yaiba- Las Crónicas de Hinokami",
+    "slug": "guardianes-de-la-noche-kimetsu-no-yaiba-las-cronicas-de-hinokami",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "14.99",
+    "img": "/img/ps4-guardianes-de-la-noche-kimetsu-no-yaiba-las-cronicas-de-hinokami-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-28",
+    "url": "/ps4/guardianes-de-la-noche-kimetsu-no-yaiba-las-cronicas-de-hinokami"
   }
 ]
