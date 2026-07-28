@@ -1511,5 +1511,16 @@
     "genero": "Adventure, Action",
     "fecha": "2026-07-28",
     "url": "/ps4/guardianes-de-la-noche-kimetsu-no-yaiba-las-cronicas-de-hinokami"
+  },
+  {
+    "titulo": "DOOM Eternal",
+    "slug": "doom-eternal",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "7.99",
+    "img": "/img/ps4-doom-eternal-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-28",
+    "url": "/ps4/doom-eternal"
   }
 ]
