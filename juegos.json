@@ -1478,5 +1478,16 @@
     "genero": "RPG",
     "fecha": "2026-07-28",
     "url": "/ps4/persona-4-golden"
+  },
+  {
+    "titulo": "TIEBREAK: Official game of the ATP and WTA",
+    "slug": "tiebreak-official-game-of-the-atp-and-wta",
+    "plataforma": "PS4",
+    "precio": "30.00",
+    "ref": "49.99",
+    "img": "/img/ps4-tiebreak-official-game-of-the-atp-and-wta-portada.jpg",
+    "genero": "Simulation, Sports",
+    "fecha": "2026-07-28",
+    "url": "/ps4/tiebreak-official-game-of-the-atp-and-wta"
   }
 ]
