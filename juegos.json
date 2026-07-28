@@ -1456,5 +1456,16 @@
     "genero": "Platformer, Adventure",
     "fecha": "2026-07-28",
     "url": "/ps4/sonic-frontiers-ps4-ps5"
+  },
+  {
+    "titulo": "theHunter: Call of the Wild",
+    "slug": "thehunter-call-of-the-wild",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "29.99",
+    "img": "/img/ps4-thehunter-call-of-the-wild-portada.jpg",
+    "genero": "Shooter, Adventure",
+    "fecha": "2026-07-28",
+    "url": "/ps4/thehunter-call-of-the-wild"
   }
 ]
