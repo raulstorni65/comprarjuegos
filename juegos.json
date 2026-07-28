@@ -1489,5 +1489,16 @@
     "genero": "Simulation, Sports",
     "fecha": "2026-07-28",
     "url": "/ps4/tiebreak-official-game-of-the-atp-and-wta"
+  },
+  {
+    "titulo": "Sniper Elite 5",
+    "slug": "sniper-elite-5",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.79",
+    "img": "/img/ps4-sniper-elite-5-portada.jpg",
+    "genero": "Shooter, Adventure",
+    "fecha": "2026-07-28",
+    "url": "/ps4/sniper-elite-5"
   }
 ]
