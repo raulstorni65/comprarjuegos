@@ -1467,5 +1467,16 @@
     "genero": "Shooter, Adventure",
     "fecha": "2026-07-28",
     "url": "/ps4/thehunter-call-of-the-wild"
+  },
+  {
+    "titulo": "Persona 4 Golden",
+    "slug": "persona-4-golden",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "9.99",
+    "img": "/img/ps4-persona-4-golden-portada.jpg",
+    "genero": "RPG",
+    "fecha": "2026-07-28",
+    "url": "/ps4/persona-4-golden"
   }
 ]
