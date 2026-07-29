@@ -1533,5 +1533,16 @@
     "genero": "Strategy, Action",
     "fecha": "2026-07-28",
     "url": "/ps4/mount-blade-ii-bannerlord"
+  },
+  {
+    "titulo": "Tom Clancy's Ghost Recon Wildlands",
+    "slug": "tom-clancy-s-ghost-recon-wildlands",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "16.99",
+    "img": "/img/ps4-tom-clancy-s-ghost-recon-wildlands-portada.jpg",
+    "genero": "Shooter, Massively Multiplayer",
+    "fecha": "2026-07-29",
+    "url": "/ps4/tom-clancy-s-ghost-recon-wildlands"
   }
 ]
