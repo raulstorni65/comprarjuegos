@@ -1544,5 +1544,16 @@
     "genero": "Shooter, Massively Multiplayer",
     "fecha": "2026-07-29",
     "url": "/ps4/tom-clancy-s-ghost-recon-wildlands"
+  },
+  {
+    "titulo": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+    "slug": "metal-gear-solid-v-the-phantom-pain",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-metal-gear-solid-v-the-phantom-pain-portada.jpg",
+    "genero": "Shooter, Action",
+    "fecha": "2026-07-29",
+    "url": "/ps4/metal-gear-solid-v-the-phantom-pain"
   }
 ]
