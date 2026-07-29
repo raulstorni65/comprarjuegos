@@ -1566,5 +1566,16 @@
     "genero": "Racing, Arcade",
     "fecha": "2026-07-29",
     "url": "/ps4/need-for-speed-payback"
+  },
+  {
+    "titulo": "Fallout 76",
+    "slug": "fallout-76",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "9.99",
+    "img": "/img/ps4-fallout-76-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-29",
+    "url": "/ps4/fallout-76"
   }
 ]
