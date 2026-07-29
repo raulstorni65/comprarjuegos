@@ -1588,5 +1588,16 @@
     "genero": "Action",
     "fecha": "2026-07-29",
     "url": "/ps4/metal-gear-solid-master-collection-vol-1"
+  },
+  {
+    "titulo": "Outlast",
+    "slug": "outlast",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "3.74",
+    "img": "/img/ps4-outlast-portada.jpg",
+    "genero": "Indie, Action",
+    "fecha": "2026-07-29",
+    "url": "/ps4/outlast"
   }
 ]
