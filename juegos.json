@@ -1555,5 +1555,16 @@
     "genero": "Shooter, Action",
     "fecha": "2026-07-29",
     "url": "/ps4/metal-gear-solid-v-the-phantom-pain"
+  },
+  {
+    "titulo": "Need for Speed Payback",
+    "slug": "need-for-speed-payback",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-need-for-speed-payback-portada.jpg",
+    "genero": "Racing, Arcade",
+    "fecha": "2026-07-29",
+    "url": "/ps4/need-for-speed-payback"
   }
 ]
