@@ -1577,5 +1577,16 @@
     "genero": "Adventure, Action",
     "fecha": "2026-07-29",
     "url": "/ps4/fallout-76"
+  },
+  {
+    "titulo": "METAL GEAR SOLID: MASTER COLLECTION Vol. 1",
+    "slug": "metal-gear-solid-master-collection-vol-1",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-metal-gear-solid-master-collection-vol-1-portada.jpg",
+    "genero": "Action",
+    "fecha": "2026-07-29",
+    "url": "/ps4/metal-gear-solid-master-collection-vol-1"
   }
 ]
