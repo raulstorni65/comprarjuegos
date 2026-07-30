@@ -1632,5 +1632,16 @@
     "genero": "Action role-playing",
     "fecha": "2026-07-30",
     "url": "/ps4/dark-souls-ii-scholar-of-the-first-sin"
+  },
+  {
+    "titulo": "A Way Out",
+    "slug": "a-way-out",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "29.99",
+    "img": "/img/ps4-a-way-out-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-30",
+    "url": "/ps4/a-way-out"
   }
 ]
