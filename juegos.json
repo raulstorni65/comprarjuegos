@@ -1643,5 +1643,16 @@
     "genero": "Adventure, Action",
     "fecha": "2026-07-30",
     "url": "/ps4/a-way-out"
+  },
+  {
+    "titulo": "ELDEN RING NIGHTREIGN",
+    "slug": "elden-ring-nightreign",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-elden-ring-nightreign-portada.jpg",
+    "genero": "Action, RPG",
+    "fecha": "2026-07-30",
+    "url": "/ps4/elden-ring-nightreign"
   }
 ]
