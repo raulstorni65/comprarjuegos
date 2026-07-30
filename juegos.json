@@ -1621,5 +1621,16 @@
     "genero": "Action, RPG",
     "fecha": "2026-07-30",
     "url": "/ps4/middle-earth-shadow-of-war"
+  },
+  {
+    "titulo": "DARK SOULS II: Scholar of the First Sin",
+    "slug": "dark-souls-ii-scholar-of-the-first-sin",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-dark-souls-ii-scholar-of-the-first-sin-portada.jpg",
+    "genero": "Action role-playing",
+    "fecha": "2026-07-30",
+    "url": "/ps4/dark-souls-ii-scholar-of-the-first-sin"
   }
 ]
