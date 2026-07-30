@@ -1599,5 +1599,16 @@
     "genero": "Indie, Action",
     "fecha": "2026-07-29",
     "url": "/ps4/outlast"
+  },
+  {
+    "titulo": "For Honor",
+    "slug": "for-honor",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "29.99",
+    "img": "/img/ps4-for-honor-portada.jpg",
+    "genero": "Massively Multiplayer, Action",
+    "fecha": "2026-07-30",
+    "url": "/ps4/for-honor"
   }
 ]
