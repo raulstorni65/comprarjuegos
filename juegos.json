@@ -1610,5 +1610,16 @@
     "genero": "Massively Multiplayer, Action",
     "fecha": "2026-07-30",
     "url": "/ps4/for-honor"
+  },
+  {
+    "titulo": "Middle-earth: Shadow of War",
+    "slug": "middle-earth-shadow-of-war",
+    "plataforma": "PS4",
+    "precio": "30.00",
+    "ref": "49.99",
+    "img": "https://www.comprarjuegos.com/og-cover.png",
+    "genero": "Action, RPG",
+    "fecha": "2026-07-30",
+    "url": "/ps4/middle-earth-shadow-of-war"
   }
 ]
