@@ -1709,5 +1709,16 @@
     "genero": "Simulación de combate aéreo, Acción, Shooter",
     "fecha": "2026-07-31",
     "url": "/ps4/ace-combat-7-skies-unknown"
+  },
+  {
+    "titulo": "DayZ",
+    "slug": "dayz",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "54.99",
+    "img": "/img/ps4-dayz-portada.jpg",
+    "genero": "Indie, Massively Multiplayer",
+    "fecha": "2026-07-31",
+    "url": "/ps4/dayz"
   }
 ]
