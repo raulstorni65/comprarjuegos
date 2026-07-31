@@ -1676,5 +1676,16 @@
     "genero": "Adventure, Action",
     "fecha": "2026-07-31",
     "url": "/ps4/no-man-s-sky"
+  },
+  {
+    "titulo": "FATAL FRAME: Maiden of Black Water",
+    "slug": "fatal-frame-maiden-of-black-water",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-fatal-frame-maiden-of-black-water-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-31",
+    "url": "/ps4/fatal-frame-maiden-of-black-water"
   }
 ]
