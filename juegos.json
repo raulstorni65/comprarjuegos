@@ -1698,5 +1698,16 @@
     "genero": "Casual, Action",
     "fecha": "2026-07-31",
     "url": "/ps4/lego-party"
+  },
+  {
+    "titulo": "ACE COMBAT 7: SKIES UNKNOWN",
+    "slug": "ace-combat-7-skies-unknown",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-ace-combat-7-skies-unknown-portada.jpg",
+    "genero": "Simulación de combate aéreo, Acción, Shooter",
+    "fecha": "2026-07-31",
+    "url": "/ps4/ace-combat-7-skies-unknown"
   }
 ]
