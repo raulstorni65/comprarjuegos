@@ -1654,5 +1654,16 @@
     "genero": "Action, RPG",
     "fecha": "2026-07-30",
     "url": "/ps4/elden-ring-nightreign"
+  },
+  {
+    "titulo": "TopSpin 2K25",
+    "slug": "topspin-2k25",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-topspin-2k25-portada.jpg",
+    "genero": "Sports",
+    "fecha": "2026-07-31",
+    "url": "/ps4/topspin-2k25"
   }
 ]
