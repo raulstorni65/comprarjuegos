@@ -1687,5 +1687,16 @@
     "genero": "Adventure, Action",
     "fecha": "2026-07-31",
     "url": "/ps4/fatal-frame-maiden-of-black-water"
+  },
+  {
+    "titulo": "LEGO Party!",
+    "slug": "lego-party",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-lego-party-portada.jpg",
+    "genero": "Casual, Action",
+    "fecha": "2026-07-31",
+    "url": "/ps4/lego-party"
   }
 ]
