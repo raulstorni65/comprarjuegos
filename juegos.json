@@ -1665,5 +1665,16 @@
     "genero": "Sports",
     "fecha": "2026-07-31",
     "url": "/ps4/topspin-2k25"
+  },
+  {
+    "titulo": "No Man's Sky",
+    "slug": "no-man-s-sky",
+    "plataforma": "PS4",
+    "precio": "35.00",
+    "ref": "59.99",
+    "img": "/img/ps4-no-man-s-sky-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-07-31",
+    "url": "/ps4/no-man-s-sky"
   }
 ]
