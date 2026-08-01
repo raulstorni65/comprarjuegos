@@ -1775,5 +1775,16 @@
     "genero": "Action, Fighting",
     "fecha": "2026-08-01",
     "url": "/ps4/sifu"
+  },
+  {
+    "titulo": "Firewatch",
+    "slug": "firewatch",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-firewatch-portada.jpg",
+    "genero": "Indie, Adventure",
+    "fecha": "2026-08-01",
+    "url": "/ps4/firewatch"
   }
 ]
