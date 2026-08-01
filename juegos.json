@@ -1786,5 +1786,16 @@
     "genero": "Indie, Adventure",
     "fecha": "2026-08-01",
     "url": "/ps4/firewatch"
+  },
+  {
+    "titulo": "Dakar Desert Rally",
+    "slug": "dakar-desert-rally",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "17.99",
+    "img": "/img/ps4-dakar-desert-rally-portada.jpg",
+    "genero": "Racing",
+    "fecha": "2026-08-01",
+    "url": "/ps4/dakar-desert-rally"
   }
 ]
