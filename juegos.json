@@ -1742,5 +1742,16 @@
     "genero": "Family, Adventure",
     "fecha": "2026-08-01",
     "url": "/ps4/the-lego-movie-2-videogame"
+  },
+  {
+    "titulo": "INAZUMA ELEVEN: Heroes' Victory Road",
+    "slug": "inazuma-eleven-heroes-victory-road",
+    "plataforma": "PS4",
+    "precio": "50.00",
+    "ref": "69.99",
+    "img": "/img/ps4-inazuma-eleven-heroes-victory-road-portada.jpg",
+    "genero": "RPG, Sports",
+    "fecha": "2026-08-01",
+    "url": "/ps4/inazuma-eleven-heroes-victory-road"
   }
 ]
