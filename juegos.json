@@ -1753,5 +1753,16 @@
     "genero": "RPG, Sports",
     "fecha": "2026-08-01",
     "url": "/ps4/inazuma-eleven-heroes-victory-road"
+  },
+  {
+    "titulo": "Street Fighter 30th Anniversary Collection",
+    "slug": "street-fighter-30th-anniversary-collection",
+    "plataforma": "PS4",
+    "precio": "20.00",
+    "ref": "29.99",
+    "img": "/img/ps4-street-fighter-30th-anniversary-collection-portada.jpg",
+    "genero": "Action, Fighting",
+    "fecha": "2026-08-01",
+    "url": "/ps4/street-fighter-30th-anniversary-collection"
   }
 ]
