@@ -1731,5 +1731,16 @@
     "genero": "Adventure, Action",
     "fecha": "2026-08-01",
     "url": "/ps4/spyro-reignited-trilogy"
+  },
+  {
+    "titulo": "The LEGO Movie 2 - Videogame",
+    "slug": "the-lego-movie-2-videogame",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-the-lego-movie-2-videogame-portada.jpg",
+    "genero": "Family, Adventure",
+    "fecha": "2026-08-01",
+    "url": "/ps4/the-lego-movie-2-videogame"
   }
 ]
