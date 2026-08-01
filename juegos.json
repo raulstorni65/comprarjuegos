@@ -1764,5 +1764,16 @@
     "genero": "Action, Fighting",
     "fecha": "2026-08-01",
     "url": "/ps4/street-fighter-30th-anniversary-collection"
+  },
+  {
+    "titulo": "Sifu",
+    "slug": "sifu",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "9.99",
+    "img": "/img/ps4-sifu-portada.jpg",
+    "genero": "Action, Fighting",
+    "fecha": "2026-08-01",
+    "url": "/ps4/sifu"
   }
 ]
