@@ -1720,5 +1720,16 @@
     "genero": "Indie, Massively Multiplayer",
     "fecha": "2026-07-31",
     "url": "/ps4/dayz"
+  },
+  {
+    "titulo": "Spyro Reignited Trilogy",
+    "slug": "spyro-reignited-trilogy",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-spyro-reignited-trilogy-portada.jpg",
+    "genero": "Adventure, Action",
+    "fecha": "2026-08-01",
+    "url": "/ps4/spyro-reignited-trilogy"
   }
 ]
