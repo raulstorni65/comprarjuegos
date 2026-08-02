@@ -1808,5 +1808,16 @@
     "genero": "Massively Multiplayer, Action",
     "fecha": "2026-08-02",
     "url": "/ps4/riders-republic"
+  },
+  {
+    "titulo": "KINGDOM HEARTS - HD 1.5+2.5 ReMIX -",
+    "slug": "kingdom-hearts-hd-1-5-2-5-remix",
+    "plataforma": "PS4",
+    "precio": "15.00",
+    "ref": "19.99",
+    "img": "/img/ps4-kingdom-hearts-hd-1-5-2-5-remix-portada.jpg",
+    "genero": "Action, RPG",
+    "fecha": "2026-08-02",
+    "url": "/ps4/kingdom-hearts-hd-1-5-2-5-remix"
   }
 ]
