@@ -1830,5 +1830,16 @@
     "genero": "Social deduction, Party",
     "fecha": "2026-08-02",
     "url": "/ps4/among-us"
+  },
+  {
+    "titulo": "FINAL FANTASY X/X-2 HD Remaster",
+    "slug": "final-fantasy-x-x-2-hd-remaster",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "9.99",
+    "img": "/img/ps4-final-fantasy-x-x-2-hd-remaster-portada.jpg",
+    "genero": "Role-playing",
+    "fecha": "2026-08-02",
+    "url": "/ps4/final-fantasy-x-x-2-hd-remaster"
   }
 ]
