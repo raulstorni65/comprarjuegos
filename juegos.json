@@ -1819,5 +1819,16 @@
     "genero": "Action, RPG",
     "fecha": "2026-08-02",
     "url": "/ps4/kingdom-hearts-hd-1-5-2-5-remix"
+  },
+  {
+    "titulo": "Among Us",
+    "slug": "among-us",
+    "plataforma": "PS4",
+    "precio": "10.00",
+    "ref": "4.99",
+    "img": "/img/ps4-among-us-portada.jpg",
+    "genero": "Social deduction, Party",
+    "fecha": "2026-08-02",
+    "url": "/ps4/among-us"
   }
 ]
