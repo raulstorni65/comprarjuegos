@@ -1797,5 +1797,16 @@
     "genero": "Racing",
     "fecha": "2026-08-01",
     "url": "/ps4/dakar-desert-rally"
+  },
+  {
+    "titulo": "Riders Republic",
+    "slug": "riders-republic",
+    "plataforma": "PS4",
+    "precio": "25.00",
+    "ref": "39.99",
+    "img": "/img/ps4-riders-republic-portada.jpg",
+    "genero": "Massively Multiplayer, Action",
+    "fecha": "2026-08-02",
+    "url": "/ps4/riders-republic"
   }
 ]
